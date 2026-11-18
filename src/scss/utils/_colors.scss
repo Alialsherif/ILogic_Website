@@ -1,0 +1,39 @@
+ :root {
+
+     --ab-white: #FFF;
+     --ab-black: #000;
+     --ab-dark: #101010;
+     --ab-bg: #090808;
+     --ab-bg-2: #090808;
+     --ab-primary: #CCFF00;
+     --ab-text: #BCBCBC;
+     --ab-body-color: #787878;
+
+     --ab-border: rgb(188, 188, 188, 0.16);
+     --ab-border2: rgb(188, 188, 188, 0.24);
+     --ab-box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+     --ab-overlay-color: #001C52;
+     --ab-gradient: linear-gradient(131deg, rgb(6, 6, 6) 30%, #EB5849 100%);
+ }
+
+ // Theme Color - Defualt Colors
+ $white: var(--ab-white);
+ $black: var(--ab-black);
+ $dark: var(--ab-dark);
+ $bg: var(--ab-bg);
+ $bg2: var(--ab-bg);
+ $overlay: var(--ab-overlay-color);
+ $primary-color: var(--ab-primary);
+ $text: var(--ab-text);
+ $theme-color3: var(--ab-theme3);
+ $title-color: var(--ab-title);
+
+ $border-color: var(--ab-border);
+ $border-color2: var(--ab-border2);
+ $shadow: var(--ab-box-shadow);
+ $yellow: var(--ab-yellow);
+ $body-color: var(--ab-body-color);
+ $gradient: var(--ab-gradient);
+
+ // Font Variation
+ $icon-font : var(--ab-icon-font-font);

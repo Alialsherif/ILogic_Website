@@ -1,0 +1,106 @@
+@use '../../utils' as *;
+
+
+.ab-contact {
+    position: relative;
+border-radius: 16px;
+padding: 32px 40px 48px;
+background-color: $dark;
+
+      @media #{$sm,$xs } {
+        border: 0;
+padding:  24px ;
+
+
+      
+    }
+    &-address {
+
+        &-item{
+            background-color: $dark;
+            border-radius: 100px;
+padding: 12px 32px 12px 12px;
+        }
+&-icon{
+    border-radius: 100px;
+width: 48px;
+height: 48px;
+line-height: 48px;
+text-align: center;
+background-color: $bg;
+}
+    }
+
+    &-blog-details {
+        &::before {
+            display: none;
+        }
+    }
+
+    &::before {
+        @include before();
+
+        opacity: .3;
+        z-index: -1;
+    }
+
+    &-thumb-img {
+        & img {
+            width: 80%;
+        }
+    }
+
+    label {
+        font-family: var(--Teko);
+font-weight: 600;
+font-size: 18px;
+line-height: 144%;
+letter-spacing: 0.03em;
+color: $white;
+margin-bottom: 8px;
+    }
+
+ 
+
+    & textarea {
+              border: none;
+padding: 16px;
+   background-color: $bg;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #BCBCBC;
+      border-radius: 8px;
+
+    }
+
+    & input {
+
+      border-radius: 8px;
+      background-color: $bg;
+      padding: 26px 18px;
+      border: none;
+      color: $white;
+    }
+
+    &-map {
+        margin-bottom: -80px;
+        width: 100%;
+
+        & iframe {
+            width: 100%;
+        }
+    }
+
+
+
+}
+
+ 
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    outline: none;
+    background-color: transparent;
+}

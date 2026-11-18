@@ -1,0 +1,80 @@
+{
+  "hero-bg": {
+    "source": "background/hero-bg1.1.png",
+    "width": 1920,
+    "height": 848,
+    "bytes": 7804
+  },
+  "hero-wave": {
+    "source": "shape/hero-shape_Left.png",
+    "width": 350,
+    "height": 259,
+    "bytes": 29362
+  },
+  "planet": {
+    "source": "shape/hero-shape_Right.png",
+    "width": 175,
+    "height": 135,
+    "bytes": 6612
+  },
+  "story-glow": {
+    "source": "shape/about-shape_1.png",
+    "width": 609,
+    "height": 696,
+    "bytes": 83798
+  },
+  "ribbon": {
+    "source": "shape/about-shape_1.2.png",
+    "width": 272,
+    "height": 208,
+    "bytes": 17166
+  },
+  "services-glow": {
+    "source": "shape/Bacground-glow-service1.1.png",
+    "width": 1194,
+    "height": 688,
+    "bytes": 132844
+  },
+  "works-lines": {
+    "source": "shape/showcase-1.1.png",
+    "width": 232,
+    "height": 424,
+    "bytes": 16802
+  },
+  "works-glow": {
+    "source": "shape/showcase-1.2.png",
+    "width": 541,
+    "height": 602,
+    "bytes": 70504
+  },
+  "silver-coil": {
+    "source": "shape/showcase-1.3.png",
+    "width": 236,
+    "height": 236,
+    "bytes": 7890
+  },
+  "process-left": {
+    "source": "shape/workflow-1.1-Overlay_Left.png",
+    "width": 550,
+    "height": 493,
+    "bytes": 49626
+  },
+  "process-right": {
+    "source": "shape/workflow-1.2-Overlay_Left.png",
+    "width": 722,
+    "height": 547,
+    "bytes": 85220
+  },
+  "process-planet": {
+    "source": "shape/workflow-1.3.png",
+    "width": 175,
+    "height": 135,
+    "bytes": 6322
+  },
+  "footer-bg": {
+    "source": "shape/footer-bg.png",
+    "width": 1920,
+    "height": 732,
+    "bytes": 9006
+  }
+}

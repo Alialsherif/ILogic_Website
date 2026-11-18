@@ -1,0 +1,172 @@
+@use 'local-fonts';
+
+// Decorative template elements must not widen the mobile layout viewport.
+html, body { overflow-x: hidden; }
+.reveal { visibility: visible; }
+.header-actions { gap: 18px; }
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid rgba(188, 188, 188, .4);
+  border-radius: 100px;
+  color: #fff;
+  font: 500 14px/1.5 'IBM Plex Sans Arabic', sans-serif;
+  white-space: nowrap;
+  transition: border-color .2s, color .2s;
+  &:hover { color: #ccff00; border-color: #ccff00; }
+}
+.language-switcher:focus-visible,
+.header-actions button:focus-visible {
+  outline: 2px solid #ccff00;
+  outline-offset: 5px;
+}
+.header-area .main-menu ul {
+  display: flex;
+  align-items: center;
+  gap: clamp(16px, 1.6vw, 28px);
+  li { margin: 0; }
+}
+.header-actions .primary-btn-one { padding-inline: 24px; white-space: nowrap; }
+.hero-heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0 24px;
+  margin-bottom: 30px;
+  .ab-hero-title { margin: 0; }
+}
+
+html[lang='ar'] {
+  --Kanit: 'IBM Plex Sans Arabic', sans-serif;
+  --Teko: 'IBM Plex Sans Arabic', sans-serif;
+
+  body { font-size: 16px; line-height: 1.9; }
+  h1, h2, h3, h4, h5, h6,
+  p, a, button, input, textarea, label, .kanit {
+    letter-spacing: 0;
+  }
+  h1, h2, h3, h4, h5, h6 { line-height: 1.5; }
+  p { line-height: 1.95; text-wrap: pretty; }
+  button, input, textarea { font-family: var(--Kanit); }
+  input, textarea { text-align: start; }
+  input[type='email'], input[type='tel'], a[href^='tel:'], a[href^='mailto:'] {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+  input[type='email'] { text-align: right; }
+  .ab-hero-title {
+    font-size: clamp(44px, 7.2vw, 104px);
+    line-height: 1.45;
+    font-weight: 600;
+  }
+  .ab-hero-title-right {
+    color: transparent;
+    -webkit-text-stroke: 1px #ccff00;
+    text-shadow: none;
+  }
+  .ab-hero-content { padding-block: 210px 130px; }
+  .ab-hero-content-text > p { max-width: 62ch; }
+  .ab-hero-review-rating,
+  .ab-about-funfact-num,
+  .ab-testimonial-num,
+  .abprice__title {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+  .ab-hero-review-rating { font-size: 40px; line-height: 1.4; }
+  .ab-section-title {
+    font-size: clamp(28px, 3.2vw, 44px);
+    line-height: 1.65;
+    font-weight: 600;
+    overflow: visible;
+  }
+  .ab-section-title-2 { font-size: inherit; font-weight: inherit; }
+  .ab-section-subtitle,
+  .ab-section-subtitle-two,
+  .ab-section-subtitle-three { font-size: 16px; line-height: 1.8; }
+  .ab-section-subtitle {
+    &::after { margin-left: 0; margin-right: 12px; }
+    &::before { right: auto; left: 0; top: 6px; }
+  }
+  .ab-hero-shape-4 { right: auto; left: clamp(30px, 14vw, 260px); }
+  .ab-hero-shape-3 { left: auto; right: 160px; }
+  .ab-breadcrum-title { font-size: clamp(36px, 5vw, 64px); line-height: 1.6; }
+  .ab-footer-newsletter-title {
+    font-size: clamp(32px, 5.8vw, 80px);
+    line-height: 1.6;
+    font-weight: 600;
+  }
+  .ab-footer-btn-wrapper { gap: 20px; flex-wrap: wrap; }
+  .ab-footer-btn { font-size: 16px; line-height: 1.6; }
+  .ab-testimonial-desc { font-size: clamp(20px, 2.3vw, 30px); line-height: 1.9; }
+  .ab-about-funfact-num { font-size: 48px; line-height: 1.5; }
+  .ab-about-funfact-title { line-height: 1.8; }
+  .ab-about-thumb-title { font-size: 22px; line-height: 1.7; color: #ccff00; text-shadow: none; }
+  .ab-service__content .fs-24 { font-size: 22px; line-height: 1.6; }
+  .marquee-item-text { font-size: clamp(28px, 4vw, 54px); line-height: 1.7; }
+  .primary-btn-one { font-size: 16px; line-height: 1.65; }
+  .primary-btn-one > svg,
+  .primary-btn-two-icon > svg,
+  .ab-teammember-btn svg,
+  .fa-chevron-right,
+  .fa-arrow-right { transform: scaleX(-1); }
+  .primary-btn-one:hover > svg { transform: scaleX(-1) rotate(45deg); }
+  .ab-section-wrapper, .title-anim, .split-text { overflow: visible; }
+  .ab-offcanvas {
+    right: auto;
+    left: 0;
+    transform: translateX(-100%);
+    &.ab-offcanvas-open { transform: translateX(0); }
+  }
+  .ab-offcanvas-search { padding-right: 0; padding-left: 18px; }
+  .ab-offcanvas-menu .menu-close { right: auto; left: 0; }
+  .ab-footer-midle-menu { border-left: 0; border-inline-start: 1px solid rgba(188, 188, 188, .24); }
+  .ab-footer-midle .main-menu ul li { margin-right: 0; margin-inline-end: 20px; }
+  .abfooter_copyright .information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px 0;
+    a { display: inline-block; margin: 0; }
+  }
+
+  // Mirror the template's direction-dependent Bootstrap alignment helpers.
+  .text-start { text-align: right !important; }
+  .text-end { text-align: left !important; }
+  @media (min-width: 992px) {
+    .text-lg-start { text-align: right !important; }
+    .text-lg-end { text-align: left !important; }
+  }
+  @media (max-width: 991px) {
+    .ab-hero-content { padding-block: 145px 80px; }
+    .ab-hero-shape-4 { display: none; }
+    .ab-footer-midle-menu { border: 0; }
+    .ab-about-thumb { padding-inline: 0; }
+    .abfooter_copyright .information { justify-content: center; }
+  }
+  @media (max-width: 575px) {
+    .ab-hero-title { font-size: clamp(37px, 10.5vw, 58px); }
+    .hero-heading { column-gap: 14px; }
+    .ab-hero-content { padding-top: 125px; }
+    .ab-hero-review { margin-bottom: 16px; }
+    .ab-section-subtitle::after { width: 70px; }
+    .ab-footer-newsletter-title { font-size: 32px; }
+    .ab-offcanvas { padding: 28px 24px; }
+    .ab-offcanvas-menu a { font-size: 17px; }
+    .ab-about-funfact-num { font-size: 36px; }
+  }
+}
+
+@media (max-width: 575px) {
+  .header-actions { gap: 14px; }
+  .language-switcher { padding-inline: 10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .language-switcher { transition: none; }
+  [data-aos] { opacity: 1 !important; transform: none !important; }
+}

@@ -1,0 +1,155 @@
+@use '../../utils' as *;
+
+.ab-brand {
+    &.pt-120 {
+        @media #{$sm,$xs,$md} {
+            padding-top: 0px !important;
+        }
+
+    }
+
+
+  
+    &-title {
+        color: $black;
+        font-weight: 700;
+        font-size: 20px;
+
+        &::before {
+            content: "";
+            display: block;
+            background-color: var(--ab-theme);
+            height: 1px;
+
+
+            width: 40%;
+            line-height: 3px;
+            margin-bottom: -11px;
+
+            @media #{$sm,$xs,$md,$lg} {
+                display: none;
+            }
+
+            @media #{$xl} {
+                width: 38%;
+            }
+        }
+
+        &::after {
+
+            content: "";
+            display: block;
+            background-color: var(--ab-theme);
+            height: 1px;
+            top: 0;
+            left: 0;
+            width: 40%;
+            margin-top: -10px;
+            margin-left: auto;
+
+            @media #{$xl} {
+                width: 38%;
+            }
+
+            @media #{$xs,$md,$sm} {
+
+                display: none;
+            }
+        }
+    }
+
+
+    &-home-2 {
+        .ab-brand {
+            &-title {
+                color: $black;
+                font-weight: 700;
+                font-size: 20px;
+
+                &::before {
+                    display: none;
+                }
+
+                &::after {
+
+                    content: "";
+                    display: block;
+                    background-color: var(--ab-theme);
+                    height: 1px;
+                    top: 0;
+                    left: 0;
+                    width: calc(100% - 250px);
+                    margin-top: -10px;
+                    margin-left: auto;
+
+                }
+            }
+        }
+    }
+
+    .top_img {
+        @media #{$sm,$md,$xs } {
+            max-width: 70% !important;
+        }
+    }
+}
+
+.icon___section {
+
+
+    z-index: 10;
+
+    .icon__container {
+        background-color: $white;
+        box-shadow: 0px 14px 40px 0px rgba(0, 0, 0, 0.03);
+
+        .card_item {
+
+
+
+
+            @include flexbox();
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        h4 {
+            color: var(--secondary, #08112D);
+            text-align: center;
+
+            font-family: "DM Sans";
+            font-size: 16px;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 0.64px;
+            text-transform: uppercase;
+        }
+
+        .card {
+          @include flexbox();
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+
+            border-radius: 23px;
+            border: 1px dashed rgba(255, 255, 255, 0.17);
+
+            width: fit-content !important;
+            height: auto !important;
+
+            img {
+                margin-bottom: 22px;
+
+            }
+
+
+
+
+
+
+        }
+    }
+
+
+}

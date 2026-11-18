@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>ILogic</title>
+  <rect width="64" height="64" rx="14" fill="#101010"/>
+  <path d="M22 14h20v7h-6v22h6v7H22v-7h6V21h-6z" fill="#ffffff"/>
+</svg>

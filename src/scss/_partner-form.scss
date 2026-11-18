@@ -1,0 +1,91 @@
+.partner-application-card {
+  color-scheme: dark;
+  max-width: 960px; margin-inline: auto; padding: 40px; border: 1px solid var(--ab-border2); border-radius: 16px; background: var(--surface-card); color: var(--ab-white); scroll-margin-top: 100px;
+  [hidden] { display: none !important; }
+  button, input, textarea, select { font: inherit; text-transform: none; }
+  :is(button,input,textarea,select,a):focus-visible { outline: 2px solid var(--ab-primary); outline-offset: 4px; }
+  .partner-form-header { padding-bottom: 28px; margin-bottom: 32px; border-bottom: 1px solid var(--ab-border2); }
+  .partner-form-header > p { color: var(--ab-primary); font-size: 15px; margin-bottom: 14px; }
+  .partner-form-progress { display: flex; width: 100%; height: 3px; background: var(--surface-soft); }
+  .partner-form-progress > span { display: block; height: 100%; background: var(--ab-primary); transition: width .25s ease-out; }
+  .partner-form-step-labels { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; list-style: none; padding: 0; margin: 22px 0 0; }
+  .partner-form-step-labels li { display: flex; align-items: center; gap: 10px; color: var(--ab-text); font-size: 15px; }
+  .partner-form-step-labels li > span { font-family: 'Kanit',sans-serif; font-size: 15px; color: inherit; direction: ltr; unicode-bidi: isolate; }
+  .partner-form-step-labels li[aria-current='step'] { color: var(--ab-primary); font-weight: 500; }
+  .partner-form-step-labels li.is-complete { color: var(--ab-white); }
+  .partner-form-step-title { font-size: 28px; margin-bottom: 8px; }
+  .partner-form-step-title:focus { outline: none; }
+  .partner-form-required-note { font-size: 14px; margin-bottom: 28px; }
+  .partner-form-step { padding: 0; border: 0; margin: 0; min-width: 0; }
+  .partner-form-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px 24px; }
+  .is-wide { grid-column: 1 / -1; }
+  .partner-form-field { min-width: 0; }
+  .partner-form-field > label { display: block; margin-bottom: 10px; color: var(--ab-white); font-size: 16px; font-weight: 500; }
+  .partner-form-required { color: var(--ab-primary); }
+  .partner-form-optional { color: var(--ab-text); font-size: 13px; font-weight: 400; }
+  .partner-form-field > :is(input,textarea,select) { width: 100%; min-height: 54px; padding: 13px 16px; border: 1px solid var(--surface-line); border-radius: 8px; background: var(--surface-card); color: var(--ab-white); font-size: 16px; line-height: 1.6; }
+  .partner-form-field > textarea { display: block; min-height: 132px; resize: vertical; }
+  :is(input,textarea,select)[aria-invalid='true'] { border-color: var(--ab-primary); }
+  .partner-field-meta { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+  .partner-form-hint { margin: 10px 0 0; color: var(--ab-text); font-size: 14px; line-height: 1.7; }
+  .partner-form-counter { flex-shrink: 0; margin: 10px 0 0; color: var(--ab-text); font: 14px 'Kanit',sans-serif; margin-inline-start: auto; }
+  .partner-form-field-error { margin: 8px 0 0; color: var(--ab-primary); font-size: 14px; line-height: 1.7; }
+  .partner-form-choice-group { min-width: 0; margin: 0; padding: 0; border: 0; }
+  .partner-form-choice-group > legend { float: none; width: auto; padding: 0; font-size: 16px; margin-bottom: 12px; font-weight: 500; }
+  .partner-form-radio-options { display: grid; gap: 10px; }
+  .partner-form-radio-options label { display: flex; align-items: flex-start; gap: 12px; min-height: 54px; padding: 14px 16px; border: 1px solid var(--surface-line); border-radius: 8px; color: var(--ab-text); cursor: pointer; }
+  .partner-form-radio-options label > span { color: inherit; font-size: 16px; line-height: 1.6; }
+  .partner-form-radio-options label:has(input:checked) { border-color: var(--ab-primary); color: var(--ab-white); }
+  input[type='radio'], input[type='checkbox'] { width: 18px; height: 18px; margin: 4px 0 0; accent-color: var(--ab-primary); flex-shrink: 0; }
+  .partner-file-picker { position: relative; display: inline-flex; min-height: 52px; border: 1px solid var(--surface-line); border-radius: 8px; color: var(--ab-white); }
+  .partner-file-picker > input { position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: pointer; }
+  .partner-file-picker > span { display: inline-flex; align-items: center; gap: 12px; color: inherit; padding: 12px 20px; pointer-events: none; }
+  .partner-file-picker:focus-within { outline: 2px solid var(--ab-primary); outline-offset: 4px; }
+  .partner-file-picker:hover { border-color: var(--ab-primary); }
+  .partner-selected-files { display: grid; gap: 8px; list-style: none; padding: 0; margin: 16px 0 0; }
+  .partner-selected-files li { display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--ab-border2); padding-block: 8px; }
+  .partner-selected-files li > span { min-width: 0; overflow-wrap: anywhere; color: var(--ab-white); flex: 1; font-size: 14px; }
+  .partner-selected-files small { flex-shrink: 0; color: var(--ab-text); font-size: 12px; }
+  .partner-selected-files button { display: grid; place-items: center; flex-shrink: 0; width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: var(--ab-primary); }
+  .partner-selected-files button:hover { background: var(--surface-card); }
+  .partner-form-consent > label { display: flex; align-items: flex-start; gap: 12px; min-height: 44px; cursor: pointer; }
+  .partner-form-consent > label > span { color: var(--ab-white); line-height: 1.8; }
+  .partner-form-privacy-placeholder { display: block; margin: 10px 30px 0; color: var(--ab-text); font-size: 14px; }
+  .partner-form-honeypot { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .partner-form-actions { display: flex; align-items: center; justify-content: flex-end; gap: 16px; margin-block: 32px 24px; padding-top: 28px; border-top: 1px solid var(--ab-border2); }
+  .partner-form-actions > button { min-height: 56px; }
+  .partner-form-actions > button:first-child:not(:last-child) { margin-inline-end: auto; }
+  button:disabled { opacity: .55; cursor: wait; }
+  .partner-form-feedback { padding: 20px; margin-top: 28px; border: 1px solid var(--ab-primary); border-radius: 8px; }
+  .partner-form-feedback > p:first-child { color: var(--ab-white); margin-bottom: 0; }
+  .partner-feedback-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 24px; margin-top: 12px; }
+  .partner-feedback-actions > button { border: 0; background: transparent; padding: 0; }
+  .partner-draft-note { font-size: 12px; }
+  .partner-form-spinner { width: 18px; height: 18px; border: 2px solid currentColor; border-right-color: transparent; border-radius: 50%; animation: partner-form-spin .7s linear infinite; }
+  .partner-form-success { text-align: center; padding: 32px 0; }
+  .partner-form-success-icon { display: block; color: var(--ab-primary); margin: 0 auto 24px; }
+  .partner-form-success > h3 { font-size: 32px; }
+  .partner-form-reference { display: flex; align-items: center; flex-wrap: wrap; justify-content: center; gap: 16px; margin-top: 28px; }
+  .partner-form-reference > span { color: var(--ab-text); }
+  .partner-form-reference > bdi { font: 22px 'Kanit',sans-serif; color: var(--ab-primary); user-select: all; }
+}
+html[lang='ar'] .partner-form-actions > button > svg { transform: scaleX(-1); }
+@keyframes partner-form-spin { to { transform: rotate(360deg); } }
+@media(max-width:767px) {
+  .partner-application-card {
+    padding: 28px 24px;
+    .partner-form-grid { grid-template-columns: minmax(0,1fr); gap: 24px; }
+    .partner-form-step-labels { gap: 8px; }
+    .partner-form-step-labels li { align-items: flex-start; flex-direction: column; gap: 4px; font-size: 14px; }
+  }
+}
+@media(max-width:399px) {
+  .partner-application-card {
+    padding: 24px 20px;
+    .partner-form-actions { gap: 12px; }
+    .partner-form-actions .primary-btn-one { padding-inline: 18px; font-size: 14px; gap: 8px; }
+    .partner-field-meta { flex-wrap: wrap; gap: 0; }
+    .partner-selected-files li { gap: 8px; }
+  }
+}
+@media(prefers-reduced-motion:reduce) { .partner-application-card { .partner-form-progress > span { transition: none; } .partner-form-spinner { animation: none; } } }

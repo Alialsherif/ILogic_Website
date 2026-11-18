@@ -1,0 +1,198 @@
+// Keep narrow layouts in the document flow and reserve hover effects for larger screens.
+@media (max-width: 991px) {
+  main section { scroll-margin-top: 88px; }
+
+  .header-area .header-menu button {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+  }
+
+  .ab-offcanvas {
+    z-index: 10000;
+    max-width: 100%;
+    height: 100dvh;
+    padding-bottom: max(28px, env(safe-area-inset-bottom));
+    overscroll-behavior: contain;
+  }
+  .ab-offcanvas-close button,
+  .ab-offcanvas-search button { min-width: 44px; min-height: 44px; }
+  .ab-offcanvas-menu a { min-height: 48px; display: flex; align-items: center; }
+  .ab-offcanvas input { font-size: 16px; }
+
+  .ab-service_thumb_hover a,
+  .ab-service-thumb-two a { display: block; }
+  .ab-service_thumb_hover img { display: block; width: 100%; height: auto; }
+  .ab-service_thumb_midle a { display: block; }
+  .ab-service_thumb_midle img { display: block; width: 100%; max-width: 100%; height: auto; }
+  .ab-service__itemtwo .ab-service_thumb_icon { display: none; }
+  .ab-service__itemtwo .ab-service_thumb_hover {
+    position: static;
+    visibility: visible;
+    transform: none;
+  }
+  .ab-service__item__two .ab-service-thumb-two,
+  .ab-service__item__two:hover .ab-service-thumb-two {
+    position: static;
+    width: 100%;
+    height: auto;
+    transform: none;
+  }
+  .ab-service__item__two .ab-service-thumb-two:has(> svg) { display: none; }
+  .ab-service__item__two .ab-service-thumb-two img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  .ab-service__item__two .ab-service__content__two { padding: 24px; }
+
+  .ab-showcase > .ab-showcase-item:not(.active) { display: none; }
+  .ab-showcase > .ab-showcase-item.active { width: 100%; min-width: 0; }
+  .ab-showcase .ab-showcase-card { margin-block: 0; }
+  .ab-showcase-content { gap: 20px; }
+
+  // The team carousel becomes one full-width portrait, its caption, then its controls.
+  .team-preview-column,
+  .team-preview-caption,
+  .ab-team1-swiper .team-member-heading { display: none; }
+  .ab-teammember-card { min-width: 0; max-width: 420px; margin-inline: auto; }
+  .ab-teammember-body { margin-top: 0; padding: 0; }
+  .ab-teammember-body > .ab-teammember-item {
+    flex-direction: column;
+    align-items: stretch !important;
+    gap: 24px;
+    margin-top: 0;
+  }
+  .ab-team1-swiper { width: 100%; min-width: 0; margin: 0; }
+  .ab-team1-swiper .swiper-slide { display: flex; flex-direction: column; height: auto; }
+  .ab-team1-swiper .ab-teammember-img {
+    order: -1;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    border-radius: 16px;
+  }
+  .ab-team1-swiper .ab-teammember-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: inherit;
+  }
+  .ab-team1-swiper .team-member-details { margin-top: 20px; }
+  .ab-teammember-btn-wrapper {
+    align-self: center;
+    gap: 12px;
+    padding: 0;
+  }
+  .ab-teammember-btn-wrapper .ab-teammember-btn { flex-shrink: 0; margin: 0; }
+  .ab-teammember-btn:focus-visible { outline: 2px solid var(--ab-primary); outline-offset: 4px; }
+
+  .ab-blog-thumb-three > a { display: block; }
+  .ab-blog-thumb-three > img,
+  .ab-blog-thumb-three > a > img { display: block; width: 100%; max-width: 100%; height: auto; }
+  .ab-blog-innerpage .ab-blog-calender {
+    transform: none;
+    left: auto;
+    right: auto;
+    inset-inline-end: 0;
+    bottom: 0;
+    max-width: 100%;
+    padding: 8px 12px;
+  }
+
+  .sb-team-item .sb-team-item-content {
+    position: static;
+    transform: none;
+    border-radius: 0;
+    background: var(--ab-primary);
+    padding: 16px;
+  }
+  .sb-team-item .sb-team-social {
+    position: static;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px;
+    margin: 0;
+    background: var(--ab-dark);
+  }
+  .sb-team-social a { flex-shrink: 0; width: 44px; height: 44px; line-height: 44px; }
+  .sb-team-item-thumb::before { display: none; }
+
+  .abprice__titleBtn-one { min-height: 44px; }
+  .ab-breadcrum__content__menu { flex-wrap: wrap; justify-content: center; row-gap: 8px; }
+
+  .ab-footer-btn-wrapper { flex-wrap: wrap; gap: 12px; }
+  .ab-footer-btn-wrapper > .ab-footer-newsletter-title { order: -1; flex-basis: 100%; margin-bottom: 12px; }
+  .ab-footer-btn-wrapper .ab-footer-btn {
+    display: inline-flex;
+    position: static;
+    transform: none;
+    width: auto;
+    height: auto;
+    min-height: 48px;
+    padding: 12px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid var(--ab-border2);
+    box-shadow: none;
+  }
+  .ab-footer-newsletter-title { font-size: clamp(36px, 7vw, 64px); }
+  .ab-footer-midle .row { text-align: center; }
+  .ab-footer-social-area { justify-content: center; }
+}
+
+@media (max-width: 767px) {
+  .container { padding-inline: 20px; }
+  .custom-container-header { padding-inline: 16px; }
+  .header-actions { gap: 10px; }
+  main .pt-120,
+  footer.pt-120 { padding-top: 64px; }
+  main .pb-120 { padding-bottom: 64px; }
+  main .mb-60 { margin-bottom: 32px; }
+
+  html[lang] .ab-hero-content { padding-block: 120px 64px; }
+  .ab-hero-content-text .btn-wrapper { margin-top: 28px; margin-bottom: 32px; }
+  .ab-hero-social { justify-content: space-between; column-gap: 8px; }
+  .ab-hero-social a { font-size: clamp(13px, 3.5vw, 16px); }
+
+  .ab-about-title-wrapper > .d-flex { flex-direction: column; align-items: flex-start !important; gap: 8px; }
+  .ab-about-title-wrapper .ab-section-title.mr-30 { margin-inline: 0; }
+  .ab-about-thumb.pl-40 { flex-direction: row; align-items: center; gap: 20px; margin-block: 24px 32px; }
+  .ab-about-thumb > div:first-child { flex: 0 0 48%; }
+  .ab-about-thumb > div + div { flex: 1; min-width: 0; margin-top: 0; }
+  .ab-about-thumb > div + div > img { width: clamp(48px, 18vw, 80px); height: auto; }
+  html[lang] .ab-about-thumb-title { padding-top: 16px; font-size: 18px; line-height: 1.7; }
+  .ab-about-funfact { display: grid; gap: 12px; margin-top: 28px; }
+  .ab-about-funfact .ab-about-funfact-item { width: 100%; margin-top: 0; padding: 16px 24px; }
+
+  .ab-teammember-area .btn-wrapper { margin-top: 28px; }
+  .ab-testimonial-thumb { height: auto; margin-bottom: 20px; padding-bottom: 28px; }
+  .ab-testimonial-thumb img { display: block; width: 100%; height: auto; max-height: 380px; object-fit: cover; object-position: center top; }
+  .ab-testimonial-thumb-icon { left: calc(50% - 44px); }
+  .ab-testimonial-namebox { gap: 16px; }
+
+  .abfooter_copyright .information { display: flex; justify-content: center; flex-wrap: wrap; }
+  .abfooter_copyright .information a { position: relative; display: inline-flex; align-items: center; min-height: 44px; padding-inline: 6px; font-size: 12px; border: 0; }
+  .abfooter_copyright .information a + a::before {
+    content: '';
+    position: absolute;
+    inset-inline-start: 0;
+    top: 50%;
+    height: 18px;
+    transform: translateY(-50%);
+    border-inline-start: 1px solid currentColor;
+  }
+  .abfooter_copyright .information a:first-child { padding-inline-start: 0; }
+  .abfooter_copyright .information a:last-child { padding-inline-end: 0; }
+  .abfooter_copyright p { font-size: 13px; margin-bottom: 8px; }
+}

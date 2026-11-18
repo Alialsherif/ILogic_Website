@@ -1,0 +1,4 @@
+prefix_rule(
+    pattern = ["node", "services-preview.local/normalize.mjs"],
+    decision = "allow",
+)

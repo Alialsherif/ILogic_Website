@@ -1,0 +1,23 @@
+@use '../utils' as *;
+
+.ab-workflow{
+  position: relative;
+  z-index: 1;
+      &-shape {
+    &-1 {
+      left: 0;
+      bottom: 0;
+    }
+
+    &-2 {
+      top: 0;
+      right: 0;
+    }
+    &-3 {
+      top: 46px;
+      right: 30%;
+    }
+
+  
+  }
+}

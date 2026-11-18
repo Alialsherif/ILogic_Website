@@ -1,0 +1,10 @@
+{
+  "desktop": "/videos/home/hero-project-desktop.mp4",
+  "mobile": "/videos/home/hero-project-mobile.mp4",
+  "poster": "/images/home/hero/video-project-poster.webp",
+  "backgroundDesktop": "/videos/home/hero-background-desktop-loop.mp4",
+  "backgroundMobile": "/videos/home/hero-background-mobile-loop.mp4",
+  "backgroundPoster": "/images/home/hero/hero-background-loop-poster.webp",
+  "width": 1600,
+  "height": 900
+}

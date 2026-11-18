@@ -1,0 +1,97 @@
+{
+  "tool": "built-in image_gen",
+  "summary": "Replace active image assets originally containing uncovered women with matching photographs and mockups. Group scenes show men only with comfortable professional spacing. Women wearing hijabs appear only in solo portraits. VR showcase mockups use an adult male character with a charcoal technical jacket and amber-lit visor. Preserve photographic style, original colors, pixel dimensions and existing transparency.",
+  "images": [
+    {
+      "path": "src/assets/img/hero/hero-1.1.jpg",
+      "prompt": "Edit target: the provided creative agency hero photograph. Replace the two women with two distinct ADULT MALE creative professionals, so the team consists of three men only. Left: short dark-haired man with neat stubble in a taupe overshirt. Center: dark-skinned man with short curls in a rust-orange shirt. Keep the smiling man with glasses on the right. Seat all three in individual chairs with visible comfortable personal space between shoulders; no touching or leaning on one another. Preserve the laptop, desk, cup, plant, blue office windows, warm cinematic skin lighting and premium editorial photographic style. Natural anatomy and textures. Keep the same landscape aspect ratio and overall team-at-laptop composition, widening the camera framing slightly if needed for appropriate spacing. No women anywhere in the image.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/Images-1.1.png",
+      "prompt": "Edit the provided creative-studio photograph so there are THREE MEN ONLY. Replace the woman in the back-right with an adult male strategist with short dark hair and a charcoal long-sleeved shirt. Keep the gray-haired bearded man in front and the younger man in the middle, design sheets, tablet, warm amber/teal studio lighting and premium editorial photography. Natural distinct male face, realistic anatomy and textures. Give the coworkers comfortable spacing with no touching or crowding. Preserve the original composition and landscape aspect ratio. No women anywhere.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/service/Image-1,1.png",
+      "prompt": "Edit the provided creative studio teamwork photograph. Replace the woman on the left with an adult male designer with short brown hair, a light beige long-sleeved shirt and navy overshirt. The image must contain THREE MEN ONLY, no women. Keep the two original male colleagues, design sheets, swatches, studio and warm moody cinematic photographic color grading. Give each colleague comfortable personal space at the table, with no touching or leaning on another person. Keep the collaborative drawing activity, desk-level camera angle, natural anatomy, realistic clothing textures and original landscape aspect ratio. Preserve the overall composition and photographic quality.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/service/service-details-thumb-1,1.png",
+      "prompt": "Edit the provided wide photograph of professionals reviewing a desktop screen. Replace the woman on the right with an adult male designer, short dark hair, neatly trimmed beard and a blue chambray long-sleeved shirt. There must be TWO MEN ONLY, no women, including any discernible people in monitor thumbnails. Keep the original man on the left and monitor on the far left, warm shelving background, cinematic cool-blue and amber lighting, desk and very wide landscape aspect ratio. Place the two male coworkers at separate positions beside the workstation with comfortable personal space, no touching or leaning against each other. Photorealistic natural proportions and fabric. Preserve the reference photographic style and composition.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/project/portfolio-details_1_1.png",
+      "prompt": "Edit target: the supplied marketing-agency website portfolio screenshot. Keep the complete website layout, all existing text, navigation, typography, black surface, colored abstract accents, image window, buttons and rounded outside corners unchanged. Inside the black-and-white team photograph only, replace BOTH women with adult male creative professionals: foreground male in a black-and-white striped long-sleeved top with short hair and neat stubble; background male in a charcoal long-sleeved shirt with short hair. Keep the original third male colleague. There must be men only, with appropriate professional personal space and no touching. Preserve monochrome photo lighting, composition and all surrounding design. Single landscape asset, original aspect ratio; retain existing transparent rounded corners.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/Images-1.2.png",
+      "prompt": "Edit target: this photograph of a creative designer leaning over a large illuminated layout table. Add a refined slate-grey hijab fully covering the woman's hair and neck; extend her blue shirt sleeves to her wrists. Keep her recognizable face, gaze, natural leaning pose, both hands and drawing pencil unchanged. Preserve the exact cool grey creative-studio background, mood boards, illuminated design sheets, cinematic editorial lighting, color palette and framing. Natural photorealistic fabric and folds. Output one photograph with the same aspect ratio as the original."
+    },
+    {
+      "path": "src/assets/img/blog/Images-1.3.png",
+      "prompt": "Edit only the woman in the provided close-up cinematic photograph of an artist drawing. She wears an elegant matte black hijab fully covering hair and neck, tucked naturally into her red and black long-sleeved plaid shirt. Preserve her face, downcast focused gaze, hands holding drawing pencils, illustration on the inclined drawing board, desk lamp on the left, warm moody studio background, original tight crop and lighting. No changes to the composition, no added text or people. Photorealistic natural textures. Output in the exact wide reference aspect ratio."
+    },
+    {
+      "path": "src/assets/img/blog/blog-innerpages_1.1.png",
+      "prompt": "Edit the provided creative-office brainstorming photograph so there are TWO MEN ONLY. Replace the woman on the left with an adult male creative professional with short dark hair, neat beard and a charcoal-grey long-sleeved knit sweater. Keep the man on the right, both laptops, glowing lightbulb idea visual, papers and plants. Maintain their natural conversational gestures with professional personal space and no touching or leaning together. Preserve the original warm/cool cinematic photography, colors, desk composition, camera framing and landscape aspect ratio. No women anywhere.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/blog-innerpages_1.3.png",
+      "prompt": "Edit the provided bright creative-studio conversation photograph so there are TWO MEN ONLY. Replace the woman on the left with an adult male designer with short dark curly hair, neat stubble and a navy long-sleeved patterned shirt. Keep the male colleague on the right, yellow accent wall, plants, daylight, laptop and printed charts. Seat the two men on separate sides of the table with comfortable personal space, no touching. Preserve the energetic professional discussion, original gestures, natural anatomy, editorial photographic style, bright palette and landscape aspect ratio. No women anywhere.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/blog-innerpages_1.4.png",
+      "prompt": "Edit the supplied cinematic tablet-review photograph so there are TWO MEN ONLY. Replace the woman on the right with an adult male designer with short brown hair, round glasses and a mustard-yellow long-sleeved cardigan over a neutral shirt. Keep the male colleague on the left, tablet, hands, blurred studio background and warm/blue photography. Recompose slightly wider to show natural comfortable personal space between their shoulders, separate seats and no touching or leaning against each other. Preserve the professional tablet-review activity, color palette, realistic texture and landscape reference aspect ratio. No women anywhere.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/thumb3.1.png",
+      "prompt": "Edit the supplied cinematic tablet-review photograph so there are TWO MEN ONLY. Replace the woman on the right with an adult male designer with short brown hair, round glasses and a mustard-yellow long-sleeved cardigan over a neutral shirt. Keep the male colleague on the left, tablet, hands, blurred studio background and warm/blue photography. Recompose slightly wider to show natural comfortable personal space between their shoulders, separate seats and no touching or leaning against each other. Preserve the professional tablet-review activity, color palette, realistic texture and landscape reference aspect ratio. No women anywhere.",
+      "duplicateOf": "src/assets/img/blog/blog-innerpages_1.4.png",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/blog-details-thumb1.3.png",
+      "prompt": "Edit the provided creative-studio drawing photograph so there are TWO MEN ONLY. Replace the woman on the left with an adult male illustrator with short curly hair, dark glasses and a mustard-yellow long-sleeved overshirt. Keep the original bald bearded male designer on the right, drawings on the desk, pencils, smartphones, pencil cup and studio mood boards. Give each man a separate workstation position with visible comfortable space between them and no touching. Preserve collaborative drawing activity, natural candid expressions, editorial photographic lighting, original colors and landscape aspect ratio. No women anywhere, including in the background.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/blog-innerpages_1.6.png",
+      "prompt": "Edit this creative designer-at-work photograph only: the woman at the desk wears an elegant muted slate-blue hijab fully covering hair and neck, matching her existing long-sleeved denim shirt. Keep her face, glasses, downturned focused gaze, drawing-tablet stylus and hands, desktop monitor showing a multicolor emblem, keyboard, desk accessories and takeaway cup unchanged. Preserve the sunset city-window backdrop, original blue and warm amber photographic lighting, composition and landscape aspect ratio. Natural photorealistic textile texture. No extra people or writing."
+    },
+    {
+      "path": "src/assets/img/blog/blog-innerpages_1.5.png",
+      "prompt": "Edit the supplied executive-office photograph so there are TWO MEN ONLY. Replace the woman on the right with an adult male professional with short tidy dark hair, neat beard, red-orange blazer and black long-sleeved shirt. Keep the male professional on the left, tablet and dark office with warm bokeh. Have them stand at comfortable professional distance, no touching or leaning together; only their hands interact with the tablet. Preserve original cinematic business photography, colors, composition and landscape aspect ratio. Natural realistic anatomy and fabrics. No women anywhere.",
+      "composition": "men-only-group"
+    },
+    {
+      "path": "src/assets/img/blog/blog-details-recent-post-1.3.png",
+      "prompt": "Edit only the woman on the left of the provided wide conceptual business brainstorm image: replace her with an adult male creative strategist with short textured hair wearing a dark burgundy long-sleeved knit shirt. Keep the same seated thoughtful pose, hand resting near chin, natural proportions and position. Preserve the man on the right, the suited central figure, the dramatic glowing golden lightbulb and intricate miniature bulbs in the middle, dark background, table, moody cinematic lighting and exact panoramic composition. High-quality natural photorealistic business editorial image in the original very wide aspect ratio. No women, no additional people or text."
+    },
+    {
+      "path": "src/assets/img/blog/blog-details-recent-post-1.1.png",
+      "prompt": "Edit target: the supplied very wide art-direction thumbnail. Replace the woman on the left with an adult male creative director wearing a matte black turtleneck and a black wide-brim designer hat. Natural realistic masculine face, understated expression. Keep the exact same left-side portrait placement and scale, dramatic soft studio light, charcoal background and the large off-white abstract geometric artwork with red circle on the right. Preserve the minimalist editorial art-photography style, original very wide composition and aspect ratio. No women, no extra people, no text or added graphics."
+    },
+    {
+      "path": "src/assets/img/blog/thumb3.3.png",
+      "prompt": "Edit this creative designer-at-work photograph only: the woman at the desk wears an elegant muted slate-blue hijab fully covering hair and neck, matching her existing long-sleeved denim shirt. Keep her face, glasses, downturned focused gaze, drawing-tablet stylus and hands, desktop monitor showing a multicolor emblem, keyboard, desk accessories and takeaway cup unchanged. Preserve the sunset city-window backdrop, original blue and warm amber photographic lighting, composition and landscape aspect ratio. Natural photorealistic textile texture. No extra people or writing.",
+      "duplicateOf": "src/assets/img/blog/blog-innerpages_1.6.png"
+    },
+    {
+      "path": "src/assets/img/showcase/Image1.1.png",
+      "prompt": "Edit target: the provided three-screen VR shopping mobile-app portfolio mockup. On the LEFT phone screen ONLY, replace the female character with a distinctly adult MALE futuristic character: masculine face and jaw, short cropped hair, matte charcoal high-collared technical jacket fully covering the chest, and the same large VR visor with amber-yellow illuminated edges. Keep the dramatic sculptural black/grey 3D style, exact character scale and placement, moody lighting and warm visor glow. His mouth must look natural and dark, NO yellow lipstick and no glowing lips. Preserve the three phone frames, dark background, white VR headsets on center/right screens, every existing UI layout, text, yellow controls, buttons, spacing and typography. Tiny avatar portraits in the right phone must also be male only. No women anywhere in the image. No redesign of the app. Return a single landscape image matching the reference aspect ratio, with the original opaque dark background.",
+      "composition": "male-only-vr-mockup"
+    },
+    {
+      "path": "src/assets/img/showcase/Image1.7.png",
+      "prompt": "Edit target: the provided three-screen VR shopping mobile-app portfolio mockup. On the LEFT phone screen ONLY, replace the female character with a distinctly adult MALE futuristic character: masculine face and jaw, short cropped hair, matte charcoal high-collared technical jacket fully covering the chest, and the same large VR visor with amber-yellow illuminated edges. Keep the dramatic sculptural black/grey 3D style, exact character scale and placement, moody lighting and warm visor glow. His mouth must look natural and dark, NO yellow lipstick and no glowing lips. Preserve the three phone frames, dark background, white VR headsets on center/right screens, every existing UI layout, text, yellow controls, buttons, spacing and typography. Tiny avatar portraits in the right phone must also be male only. No women anywhere in the image. No redesign of the app. Return a single landscape image matching the reference aspect ratio, with the original opaque dark background.",
+      "composition": "male-only-vr-mockup"
+    }
+  ]
+}

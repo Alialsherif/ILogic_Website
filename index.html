@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/ilogic-icon-v2.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="preload" href="/fonts/brand/alexandria-arabic-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/brand/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" as="image" href="/images/home/hero/hero-background-loop-poster.webp" fetchpriority="high" />
+    <style id="ilogic-critical-theme">
+      html { background: #ffffff; color-scheme: light; }
+      body { margin: 0; }
+      html body { min-height: 100vh; background: var(--ab-bg, #ffffff); color: var(--ab-white, #111111); }
+      #root { min-height: 100vh; }
+    </style>
+    <meta name="application-name" content="ILogic" />
+    <meta name="author" content="ILogic" />
+    <!-- ilogic:seo:start -->
+    <meta data-ilogic-head name="description" content="ILogic شركة برمجيات تبني مواقع تجلب العملاء وتقدّم SEO وأنظمة مخصصة وأتمتة، بخبرة من السوق الروسي لخدمة مصر والشرق الأوسط." />
+    <title data-ilogic-head>ILogic | شركة برمجيات ومواقع وأنظمة ذكية في مصر</title>
+    <!-- ilogic:seo:end -->
+    <script>
+      try {
+        var requestedLanguage = new URLSearchParams(location.search).get('lang');
+        var savedLanguage;
+        try { savedLanguage = localStorage.getItem('ilogic-language'); } catch (storageError) { /* Storage is optional. */ }
+        var siteLanguage = ['ar', 'en'].includes(requestedLanguage) ? requestedLanguage : (['ar', 'en'].includes(savedLanguage) ? savedLanguage : 'ar');
+        document.documentElement.lang = siteLanguage;
+        document.documentElement.dir = siteLanguage === 'ar' ? 'rtl' : 'ltr';
+      } catch (error) { /* Arabic is the default when storage is unavailable. */ }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

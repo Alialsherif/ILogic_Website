@@ -1,0 +1,194 @@
+{
+  "generationMode": "Built-in image_gen tool",
+  "assets": [
+    {
+      "key": "hero",
+      "file": "public/images/identity-v2/hero.webp",
+      "width": 1600,
+      "height": 1000,
+      "bytes": 28842,
+      "original": "output/imagegen/identity-v2/hero.png",
+      "prompt": "Use case: product-mockup. A sculptural metaphor for turning scattered daily work into a calm organized workflow: pearl-white rounded modules on a light mint plinth, a translucent curved glass ribbon guiding a few floating paper-like tiles into a neat orderly stack. A small understated clock-outline object represents time returned to the owner. Abstract software geometry, no fake dashboard, no currency, no gears or AI brain. The center-right is relatively quiet so an actual HTML interface can be overlaid. Original premium editorial art for ILogic's new visual identity. A clean white / warm ivory studio, soft mint #e2f3ef, pale lavender #efeff8, graphite-black details, restrained iridescent glass with subtle pink/blue edge refractions. Refined tactile materials, generous negative space, soft daylight and realistic contact shadows. No lime, neon green, dark olive, neon lighting, people, hands, extra logos, readable interface text, numerical metrics, prices, ratings, or watermark. Landscape 3:2. Clear large composition readable at a small website-card size."
+    },
+    {
+      "key": "partners",
+      "file": "public/images/identity-v2/partners.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 43910,
+      "original": "output/imagegen/identity-v2/partners.png",
+      "prompt": "Use case: product-mockup. Show a RIGHT-TO-LEFT software partnership journey. On the right a pearl-white software module with a black { } symbol; in the center a substantial elegant white distribution hub labelled ONLY 'ILogic' in bold crisp BLACK geometric sans, correct capitalization; on the left three glass customer cards with anonymous black head-and-shoulder outline icons and small matching software tiles. Thin charcoal connectors carry the system into ILogic and fan out to end users. The brand actively receives and distributes the same software module. Mint and lavender translucent inserts, white ceramic, brushed silver, no fabricated client interface. Original premium editorial art for ILogic's new visual identity. A clean white / warm ivory studio, soft mint #e2f3ef, pale lavender #efeff8, graphite-black details, restrained iridescent glass with subtle pink/blue edge refractions. Refined tactile materials, generous negative space, soft daylight and realistic contact shadows. No lime, neon green, dark olive, neon lighting, people, hands, extra logos, readable interface text, numerical metrics, prices, ratings, or watermark. Landscape 3:2. Clear large composition readable at a small website-card size."
+    },
+    {
+      "key": "behavior",
+      "file": "public/images/identity-v2/behavior.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 57450,
+      "original": "output/imagegen/identity-v2/behavior.png",
+      "prompt": "Use case: product-mockup. Illustrate user behavior analysis leading to reaching relevant customers: a large angled pearl-white glass display on an ivory desk, three left-side content/product tiles showing a monochrome headphone, a laptop and a play symbol with small black cursor marks. Fine charcoal lines flow into a central frosted lavender segmentation node and onward to three right-side anonymous customer-profile cards matching those interests; a tiny message-outline symbol on one selected mint card. Strong simple diagram on tactile premium hardware, no graphs suggesting verified growth, no readable UI. Original premium editorial art for ILogic's new visual identity. A clean white / warm ivory studio, soft mint #e2f3ef, pale lavender #efeff8, graphite-black details, restrained iridescent glass with subtle pink/blue edge refractions. Refined tactile materials, generous negative space, soft daylight and realistic contact shadows. No lime, neon green, dark olive, neon lighting, people, hands, extra logos, readable interface text, numerical metrics, prices, ratings, or watermark. Landscape 3:2. Clear large composition readable at a small website-card size."
+    },
+    {
+      "key": "loyalty",
+      "file": "public/images/identity-v2/loyalty.webp",
+      "width": 1600,
+      "height": 1067,
+      "bytes": 54318,
+      "original": "output/imagegen/identity-v2/loyalty.png",
+      "prompt": "Use case: product-mockup. A clean ecommerce loyalty software concept. A modern graphite-edged smartphone with a WHITE screen shows only a simple black confirmation tick and three abstract mint/lavender reward tokens. A slim silver laptop behind it displays abstract white connected-workflow tiles without text or statistics. A small secondary self-service coffee dispenser and a small plain retail shopping bag add two different business contexts; the SOFTWARE is dominant, the machine is only supporting context. A restrained glass connector links a generic QR-like decorative square to the phone and laptop. Original premium editorial art for ILogic's new visual identity. A clean white / warm ivory studio, soft mint #e2f3ef, pale lavender #efeff8, graphite-black details, restrained iridescent glass with subtle pink/blue edge refractions. Refined tactile materials, generous negative space, soft daylight and realistic contact shadows. No lime, neon green, dark olive, neon lighting, people, hands, extra logos, readable interface text, numerical metrics, prices, ratings, or watermark. Landscape 3:2. Clear large composition readable at a small website-card size."
+    },
+    {
+      "key": "laptopFrame",
+      "file": "public/images/identity-v2/laptopFrame.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 56068,
+      "original": "output/imagegen/identity-v2/laptopFrame.png",
+      "prompt": "Use case: product-mockup. ONE open slim premium laptop, perfectly straight-on frontal view, no perspective skew: screen edges truly horizontal and vertical, inner display exactly 16:10. Entire slim base visible, large blank uniform BLACK screen ready for an original screenshot to be placed over it in HTML. Thin graphite bezels, matte silver/pearl-aluminum keyboard base, no colored stripe, no logo, no text, no screen reflections. Centered landscape 3:2 composition with transparent padding around the complete laptop. Realistic restrained highlights. The screen should occupy about 79% of image width from x=10.4% to89.6%, and about74% of image height starting at y=10.6%. Background genuinely transparent, preserve alpha. No desk, props, glow or people."
+    },
+    {
+      "key": "service-web",
+      "file": "public/images/identity-v2/service-web.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 36746,
+      "original": "output/imagegen/identity-v2/service-web.png",
+      "prompt": "Edit only the supplied responsive-website illustration. Remove EVERY readable word and letter from ALL three surfaces: the desktop display, the phone display, and the lower-left floating placard. This includes all ILogic wordmarks and both English headlines. Replace those word areas with a few neutral gray rounded skeleton lines, keeping the mint/lavender abstract layouts, dark code-panel lines and fine device-detail geometry intact. Keep the exact hardware, framing, lighting, white/pastel materials and iridescent glass unchanged. Do not add any readable text, logos, numbers or new objects. The final image must contain ZERO letters or words."
+    },
+    {
+      "key": "service-seo",
+      "file": "public/images/identity-v2/service-seo.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 35460,
+      "original": "output/imagegen/identity-v2/service-seo.png",
+      "prompt": "A sculptural black-rimmed magnifying glass hovering over a pearl-white vertical set of three search-result cards. The top result is selected with a soft MINT insert, subtle charcoal outline and a plain website symbol, while a fine glass route connects it to a single anonymous customer-outline card. Convey being found in search with confidence, no rankings/numbers or invented statistics. Use case: product-mockup. Original premium editorial cover for ILogic's new white/black/mint/lavender identity. Landscape 3:2, realistic tactile 3D studio photography, generous margins, light ivory or soft pastel backdrop, pearlescent/frosted glass with very restrained iridescent edges, graphite details, soft daylight/contact shadows. No neon lime, dark olive, green glow, people, faces, readable text, numbers, prices, fake metrics, third-party logos or watermark. One clear large concept readable in a card."
+    },
+    {
+      "key": "service-automation",
+      "file": "public/images/identity-v2/service-automation.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 35306,
+      "original": "output/imagegen/identity-v2/service-automation.png",
+      "prompt": "Edit target: the supplied automation illustration. Remove the entire lower-left placard containing the invented logo and the English slogan, including every letter and the green mark. Replace that area with a plain small blank frosted lavender software tile with NO symbols, NO text and NO logo, or clean empty studio space. Keep every other object and its arrangement unchanged: message/document tiles, central mint confirmation, diverse retail crate, coffee appliance and laptop, white/pastel studio identity. There must be no readable text, no letters, no numbers and no company wordmark anywhere in the final image."
+    },
+    {
+      "key": "service-identity",
+      "file": "public/images/identity-v2/service-identity.webp",
+      "width": 1200,
+      "height": 800,
+      "bytes": 48330,
+      "original": "output/imagegen/identity-v2/service-identity.png",
+      "prompt": "An elegant brand identity studio still life: a warm-white presentation folder, stationery, a plain small box and a business card, carrying the SAME original abstract black arc motif, alongside two simple mint/lavender color swatches and a frosted glass ribbon. No letters or invented brand, carefully composed editorial identity materials. Use case: product-mockup. Original premium editorial cover for ILogic's new white/black/mint/lavender identity. Landscape 3:2, realistic tactile 3D studio photography, generous margins, light ivory or soft pastel backdrop, pearlescent/frosted glass with very restrained iridescent edges, graphite details, soft daylight/contact shadows. No neon lime, dark olive, green glow, people, faces, readable text, numbers, prices, fake metrics, third-party logos or watermark. One clear large concept readable in a card."
+    },
+    {
+      "key": "sector-clinics",
+      "file": "public/images/identity-v2/sectors/sector-clinics.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 63908,
+      "original": "output/imagegen/identity-v2/sector-clinics.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a modern private medical clinic consultation room, a discreet examination couch, white cabinetry and a physician desk. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-beauty",
+      "file": "public/images/identity-v2/sectors/sector-beauty.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 95142,
+      "original": "output/imagegen/identity-v2/sector-beauty.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of an elegant beauty and skincare center reception, curved ivory counter, soft natural textiles and sculptural glass details. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-dental",
+      "file": "public/images/identity-v2/sectors/sector-dental.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 60924,
+      "original": "output/imagegen/identity-v2/sector-dental.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a pristine contemporary dental treatment room, a clearly recognizable dental chair and dental equipment. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-medical-centers",
+      "file": "public/images/identity-v2/sectors/sector-medical-centers.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 67660,
+      "original": "output/imagegen/identity-v2/sector-medical-centers.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a generous hospital reception and departmental corridor, white stone reception desk, clear architectural organization without text signs. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-restaurants",
+      "file": "public/images/identity-v2/sectors/sector-restaurants.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 79262,
+      "original": "output/imagegen/identity-v2/sector-restaurants.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of an elegant modern cafe and restaurant interior, curved counter, seating and a small coffee area, warm white daylight. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-real-estate",
+      "file": "public/images/identity-v2/sectors/sector-real-estate.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 108176,
+      "original": "output/imagegen/identity-v2/sector-real-estate.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of an architectural property-development showroom with a refined physical scale model of residential buildings on a white display table. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-education",
+      "file": "public/images/identity-v2/sectors/sector-education.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 51114,
+      "original": "output/imagegen/identity-v2/sector-education.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a modern academy classroom with desks, chairs and a blank clean whiteboard, daylight, no students. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-industrial",
+      "file": "public/images/identity-v2/sectors/sector-industrial.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 70842,
+      "original": "output/imagegen/identity-v2/sector-industrial.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a spotless real industrial production hall with purposeful manufacturing machinery, white structure and high windows. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-retail",
+      "file": "public/images/identity-v2/sectors/sector-retail.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 86026,
+      "original": "output/imagegen/identity-v2/sector-retail.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a modern independent retail store, clear product display shelving and a small checkout counter, generic unbranded products. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-professional-services",
+      "file": "public/images/identity-v2/sectors/sector-professional-services.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 91468,
+      "original": "output/imagegen/identity-v2/sector-professional-services.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a professional legal and accounting consultation office, orderly meeting table, a few plain folders, books without readable spines. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-hospitality",
+      "file": "public/images/identity-v2/sectors/sector-hospitality.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 109678,
+      "original": "output/imagegen/identity-v2/sector-hospitality.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a sophisticated hotel lobby with reception counter, comfortable seating, pale stone and daylight. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    },
+    {
+      "key": "sector-fitness",
+      "file": "public/images/identity-v2/sectors/sector-fitness.webp",
+      "width": 800,
+      "height": 1000,
+      "bytes": 101552,
+      "original": "output/imagegen/identity-v2/sector-fitness.png",
+      "prompt": "Use case: photorealistic-natural. A portrait editorial architectural photograph of a premium bright gym with recognizable strength and cardio equipment, clean open circulation. ILogic's new sophisticated white identity: airy natural daylight, clean ivory and neutral stone, restrained mint and pale lavender details, authentic materials, calm composition with a strong focal point and quiet space suitable for an actual website search interface to be overlaid later. Portrait 4:5, camera at human eye height, realistic commercial interior photography, sharp refined detail, professional and welcoming. No people, hands, faces, readable text, signage, logos, prices, numbers, watermarks, neon lime, dark green tint, night lighting or exaggerated futuristic decor. This is an illustrative sector scene, not a claim of a particular client location."
+    }
+  ]
+}

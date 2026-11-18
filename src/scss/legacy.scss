@@ -1,0 +1,20 @@
+// Existing template styles, loaded before rendering pages that use the template.
+@use 'utils' as *;
+@use 'theme' as *;
+@use 'layout' as *;
+@use 'component' as *;
+@use 'localization';
+@use 'responsive';
+@use 'homepage';
+@use 'identity';
+@use 'partners';
+@use 'partner-form';
+@use 'home-services';
+@use 'home-sectors';
+@use 'hero-story';
+@use 'atelier';
+@use 'services-page';
+@use 'projects-page';
+@use 'contact-page';
+@use 'site-typography';
+@use 'scroll-motion';

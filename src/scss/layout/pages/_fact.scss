@@ -1,0 +1,129 @@
+@use '../../utils' as *;
+
+
+
+.sb-fact {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-marquee {
+        background-color: $bg;
+    }
+
+    .odometer {
+        &-digit {
+
+            width: 52px;
+            height: 107px;
+
+          
+  @media #{$xl} {
+	width: 41px;
+	height: 83px;
+}
+          
+            @media #{$lg } {
+                width: 38px;
+                height: 70px;
+            }
+            @media #{ $sm,$xs,$md} {
+            
+	width: 27px;
+	height: 44px;
+}
+            
+        }
+
+        &-value {
+
+            font-weight: 700;
+            font-size: 100px;
+            line-height: 108%;
+            letter-spacing: -0.01em;
+            text-transform: uppercase;
+            color: #fff;
+
+            @media #{$sm,$xs} {
+                font-size: 50px;
+
+
+            }
+  @media #{$xl} {
+               font-size: 80px;
+            }
+            @media #{$lg,$md} {
+                font-size: 70px;
+
+
+            }
+
+        }
+    }
+
+    &-item {
+        text-align: center;
+        border: 1px solid rgba(188, 188, 188, 0.24);
+        border-radius: 1000px;
+        padding: 100px 0px;
+        width: 364px;
+        height: 364px;
+
+
+        @media #{$xlm,$xl,$lg,$md,$xs,$sm} {
+            width: 100%;
+            height: 100%;
+            border: none;
+            padding: 0;
+        }
+    }
+
+    &-title {
+
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 108%;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: -15px;
+
+     @media #{$sm,$xs} {
+                font-size: 50px;
+
+
+            }
+  @media #{$xl} {
+               font-size: 80px;
+            }
+        @media #{$lg,$md} {
+            font-size: 70px;
+
+
+        }
+
+
+    }
+
+    &-desc {
+        font-family: var(--Teko);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 133%;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        text-align: center;
+        color: $white;
+
+          @media #{$sm,$xs,$md} {
+                font-size: 20px;
+
+
+            }
+    }
+
+    &-icon {
+        display: inline-flex;
+        column-gap: 15px;
+        align-items: center;
+    }
+}

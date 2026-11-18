@@ -1,0 +1,58 @@
+@use '../../utils' as *;
+
+.sb-catergory {
+    transform: translateY(-100px);
+ &-title-wrapper{
+    background-image: url('../../../assets/images/background/home2-categoru-bg2.1.png');
+ }
+    &__item {
+        text-align: center;
+
+        padding: 25px;
+        background-color: $white;
+        height: 220px;
+        box-shadow: 0 10px 60px 0 rgba(0, 0, 0, 0.05);
+        background: #fff;
+        position: relative;
+        overflow: hidden;
+
+        &:hover {
+
+            .sb-catergory__thumb__2 {
+
+                perspective: 400px;
+                visibility: visible;
+                transform-origin: top center;
+                transform: scale(1, 1);
+            }
+        }
+    }
+
+    &__thumb {
+        width: 100px;
+        height: 100px;
+        min-width: 100px;
+        background-color: #F3F3ED;
+        text-align: center;
+        line-height: 100px;
+        border-radius: 50%;
+        margin: auto;
+
+
+        &__2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            perspective: 400px;
+            width: 100%;
+            visibility: hidden;
+            transform-origin: bottom center;
+            transform: scale(1, 0);
+            transition: transform 300ms ease-in-out, visibility 300ms ease-in-out;
+        }
+    }
+
+    &__desc {
+        line-height: normal;
+    }
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" fill="none">
+  <title>Abstract user behavior analytics dashboard</title>
+  <rect width="1600" height="1000" fill="#101010"/>
+  <rect x="100" y="100" width="1400" height="800" rx="24" fill="#090808" stroke="#39401e" stroke-width="2"/>
+  <path d="M100 190h1400M340 190v710" stroke="#303326" stroke-width="2"/>
+  <circle cx="150" cy="145" r="8" fill="#ccff00"/>
+  <path d="M183 145h100" stroke="#bcbcbc" stroke-width="8" stroke-linecap="round"/>
+  <g stroke="#555a48" stroke-width="8" stroke-linecap="round"><path d="M150 265h125M150 330h90M150 395h110M150 460h80"/></g>
+  <path d="M140 240h145v50H140z" fill="#ccff00" fill-opacity=".08"/>
+  <rect x="395" y="250" width="645" height="340" rx="16" stroke="#33372a" stroke-width="2"/>
+  <path d="M440 520h555M440 440h555M440 360h555" stroke="#25291d" stroke-width="2"/>
+  <path d="M440 500c70 0 80-60 140-60s85 30 135-20 75-100 135-90 75-30 145-35" stroke="#ccff00" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="715" cy="420" r="10" fill="#ccff00"/>
+  <circle cx="995" cy="295" r="10" fill="#ccff00"/>
+  <rect x="1090" y="250" width="350" height="340" rx="16" stroke="#33372a" stroke-width="2"/>
+  <circle cx="1265" cy="420" r="95" stroke="#25291d" stroke-width="25"/>
+  <path d="M1265 325a95 95 0 0 1 95 95" stroke="#ccff00" stroke-width="25"/>
+  <circle cx="1265" cy="420" r="45" stroke="#7d9c20" stroke-width="12" stroke-dasharray="90 193"/>
+  <rect x="395" y="640" width="1045" height="200" rx="16" stroke="#33372a" stroke-width="2"/>
+  <g fill="#384326"><rect x="440" y="730" width="80" height="65" rx="6"/><rect x="565" y="700" width="80" height="95" rx="6"/><rect x="690" y="745" width="80" height="50" rx="6"/><rect x="940" y="710" width="80" height="85" rx="6"/><rect x="1065" y="690" width="80" height="105" rx="6"/><rect x="1190" y="720" width="80" height="75" rx="6"/></g>
+  <rect x="815" y="675" width="80" height="120" rx="6" fill="#ccff00"/>
+</svg>

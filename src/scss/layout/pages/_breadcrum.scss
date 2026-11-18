@@ -1,0 +1,93 @@
+@use '../../utils' as *;
+
+.ab-breadcrum {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    padding: 230px 0px 150px;
+
+    @media #{$sm,$md,$xs } {
+        padding: 150px 0px 80px;
+    }
+
+
+    &-shape {
+        &-2 {
+            right: 0;
+            bottom: 0;
+        }
+
+        &-1 {
+            right: 100px;
+            bottom: 30px;
+
+            @media #{$sm,$xs } {
+                right: 0;
+                bottom: 0;
+                width: 50%;
+
+            }
+            @media #{$md } {
+                right: 0;
+                bottom: 0;
+                width: 30%;
+
+            }
+        }
+    }
+
+    &-title {
+        font-family: var(--Teko);
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 111%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        text-align: center;
+        color: $white;
+
+        @media #{$sm,$md,$xs } {
+            font-size: 38px;
+        }
+    }
+
+
+    &__content {
+        z-index: 3;
+        position: relative;
+
+
+
+        //            @media #{$sm,$md,$xs } {
+        // padding: 180px 0 120px;
+        //         }
+        &__menu {
+            display: inline-flex;
+
+
+            a {
+                opacity: .7;
+
+            }
+
+            li {
+
+                margin-right: 10px;
+                font-family: var(--Kanit);
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                color: $white;
+                text-transform: capitalize !important;
+
+                i {
+                    font-size: 15px;
+                }
+
+            }
+
+        }
+    }
+
+}

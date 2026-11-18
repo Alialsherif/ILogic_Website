@@ -1,0 +1,387 @@
+{
+  "build": "passed",
+  "sourceTests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "targetedESLint": "passed",
+  "protectedSourceComparison": "all locale JSON, original client screenshots, supplied video and central contact config byte-for-byte unchanged",
+  "responsive": {
+    "pages": 18,
+    "widths": [
+      375,
+      768,
+      1440
+    ],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "routes": [
+      "/",
+      "/about",
+      "/partners"
+    ],
+    "overflow": 0,
+    "brokenImages": 0,
+    "browserErrors": []
+  },
+  "legacy": {
+    "pages": 24,
+    "widths": [
+      375,
+      1440
+    ],
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "routes": [
+      "/servicePage",
+      "/contact",
+      "/projectPage",
+      "/blogPage",
+      "/serviceDetails",
+      "/projectDetails"
+    ],
+    "overflow": 0,
+    "browserErrors": []
+  },
+  "functional": {
+    "cases": 6,
+    "details": [
+      {
+        "width": 375,
+        "language": "ar",
+        "stories": [
+          {
+            "story": "automation",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "true",
+              "false",
+              "false"
+            ]
+          },
+          {
+            "story": "search",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "true",
+              "false"
+            ]
+          },
+          {
+            "story": "store",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "false",
+              "true"
+            ]
+          }
+        ],
+        "gallery": 6,
+        "keyboardAccordion": true,
+        "mobileMenu": true
+      },
+      {
+        "width": 375,
+        "language": "en",
+        "stories": [
+          {
+            "story": "automation",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "true",
+              "false",
+              "false"
+            ]
+          },
+          {
+            "story": "search",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "true",
+              "false"
+            ]
+          },
+          {
+            "story": "store",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "false",
+              "true"
+            ]
+          }
+        ],
+        "gallery": 6,
+        "keyboardAccordion": true,
+        "mobileMenu": true
+      },
+      {
+        "width": 768,
+        "language": "ar",
+        "stories": [
+          {
+            "story": "automation",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "true",
+              "false",
+              "false"
+            ]
+          },
+          {
+            "story": "search",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "true",
+              "false"
+            ]
+          },
+          {
+            "story": "store",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "false",
+              "true"
+            ]
+          }
+        ],
+        "gallery": 6,
+        "keyboardAccordion": true,
+        "mobileMenu": true
+      },
+      {
+        "width": 768,
+        "language": "en",
+        "stories": [
+          {
+            "story": "automation",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "true",
+              "false",
+              "false"
+            ]
+          },
+          {
+            "story": "search",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "true",
+              "false"
+            ]
+          },
+          {
+            "story": "store",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "false",
+              "true"
+            ]
+          }
+        ],
+        "gallery": 6,
+        "keyboardAccordion": true,
+        "mobileMenu": true
+      },
+      {
+        "width": 1440,
+        "language": "ar",
+        "stories": [
+          {
+            "story": "automation",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "true",
+              "false",
+              "false"
+            ]
+          },
+          {
+            "story": "search",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "true",
+              "false"
+            ]
+          },
+          {
+            "story": "store",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "false",
+              "true"
+            ]
+          }
+        ],
+        "gallery": 6,
+        "keyboardAccordion": true,
+        "mobileMenu": false
+      },
+      {
+        "width": 1440,
+        "language": "en",
+        "stories": [
+          {
+            "story": "automation",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "true",
+              "false",
+              "false"
+            ]
+          },
+          {
+            "story": "search",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "true",
+              "false"
+            ]
+          },
+          {
+            "story": "store",
+            "active": 1,
+            "inside": true,
+            "reduced": "true",
+            "pressed": [
+              "false",
+              "false",
+              "true"
+            ]
+          }
+        ],
+        "gallery": 6,
+        "keyboardAccordion": true,
+        "mobileMenu": false
+      }
+    ],
+    "browserErrors": []
+  },
+  "motion": {
+    "details": [
+      {
+        "heroAutomatic": true,
+        "heroPausePlay": true,
+        "sectorAutomaticWithMouseInside": true,
+        "reducedMotion": true
+      }
+    ],
+    "browserErrors": []
+  },
+  "form": {
+    "responsiveStates": 18,
+    "details": [
+      {
+        "language": "ar",
+        "width": 375,
+        "validation": true,
+        "preservedData": true,
+        "offlineError": true,
+        "honeypotSilent": true,
+        "localFiles": true
+      },
+      {
+        "language": "en",
+        "width": 375,
+        "validation": true,
+        "preservedData": true,
+        "offlineError": true,
+        "honeypotSilent": true,
+        "localFiles": true
+      },
+      {
+        "language": "ar",
+        "width": 768,
+        "validation": true,
+        "preservedData": true,
+        "offlineError": true,
+        "honeypotSilent": true,
+        "localFiles": true
+      },
+      {
+        "language": "en",
+        "width": 768,
+        "validation": true,
+        "preservedData": true,
+        "offlineError": true,
+        "honeypotSilent": true,
+        "localFiles": true
+      },
+      {
+        "language": "ar",
+        "width": 1440,
+        "validation": true,
+        "preservedData": true,
+        "offlineError": true,
+        "honeypotSilent": true,
+        "localFiles": true
+      },
+      {
+        "language": "en",
+        "width": 1440,
+        "validation": true,
+        "preservedData": true,
+        "offlineError": true,
+        "honeypotSilent": true,
+        "localFiles": true
+      },
+      {
+        "keyboardOnly": true
+      },
+      {
+        "blockedSessionStorage": true
+      }
+    ],
+    "browserErrors": [],
+    "note": "Production is frontend-only. Submission/success callbacks were exercised only in a local fixture; no external write requests were issued."
+  },
+  "lighthouse": "not run in this rebrand"
+}

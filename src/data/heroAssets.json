@@ -1,0 +1,26 @@
+{
+  "background": {
+    "src": "/images/identity-v2/hero.webp",
+    "available": true,
+    "width": 1600,
+    "height": 1000
+  },
+  "fopac": {
+    "src": "/images/home/hero/fopac-screenshot.webp",
+    "available": true,
+    "width": 1600,
+    "height": 1000
+  },
+  "zavodsz": {
+    "src": "/images/home/hero/zavodsz-screenshot.webp",
+    "available": true,
+    "width": 1600,
+    "height": 1000
+  },
+  "og": {
+    "src": "/images/identity-v2/og-home.webp",
+    "available": true,
+    "width": 1200,
+    "height": 630
+  }
+}

@@ -1,0 +1,52 @@
+@use '../utils' as *;
+
+#backToTop {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    bottom: 30px;
+    right:30px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: $primary-color;
+    color:$bg;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 20;
+
+ @include flexbox();
+}
+
+
+
+#backToTop.visible {
+   visibility: visible;
+   animation: zoomout .5s forwards cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s;
+ opacity: 1;
+            @include transition(.4s);
+ &:hover{
+      background-color: $primary-color;
+    }
+
+}
+ 
+ 
+@keyframes zoomout {
+
+    0% {
+  
+@include transform(scale(.6));
+ 
+        opacity: 0;
+      }
+      100% {
+        @include transform(scale(1));
+ 
+  
+    
+        opacity: 1;
+      }
+
+}

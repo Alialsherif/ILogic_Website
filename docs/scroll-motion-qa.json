@@ -1,0 +1,299 @@
+{
+  "implementation": "Native IntersectionObserver + CSS opacity/transform transitions; no new dependencies",
+  "statistics": "Deferred by owner until verified values are supplied; no statistics added",
+  "unitTests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "eslint": "passed",
+  "build": "passed",
+  "responsiveCases": 18,
+  "enhancedCases": 4,
+  "headingSemanticsPreserved": true,
+  "altPreserved": true,
+  "metadataUnchanged": true,
+  "noJavaScript": [
+    {
+      "route": "/",
+      "noJavaScript": {
+        "h1": 1,
+        "opacity": "1",
+        "motion": 0,
+        "content": 10892,
+        "sections": 10
+      }
+    },
+    {
+      "route": "/about",
+      "noJavaScript": {
+        "h1": 1,
+        "opacity": "1",
+        "motion": 0,
+        "content": 2957,
+        "sections": 7
+      }
+    },
+    {
+      "route": "/partners",
+      "noJavaScript": {
+        "h1": 1,
+        "opacity": "1",
+        "motion": 0,
+        "content": 3482,
+        "sections": 9
+      }
+    }
+  ],
+  "reducedMotion": true,
+  "keyboardFocus": true,
+  "errors": [],
+  "lighthouse": {
+    "method": "Lighthouse 13.6 mobile simulated throttling; cold cache; median of 3 for Arabic homepage, 1 run for each other case",
+    "before": [
+      {
+        "route": "/",
+        "language": "ar",
+        "run": 1,
+        "performance": 73,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 1701.0181000000002,
+        "cls": 0,
+        "tbt": 1490.4909499999994,
+        "transfer": 841530
+      },
+      {
+        "route": "/",
+        "language": "ar",
+        "run": 2,
+        "performance": 60,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 2822.25135,
+        "cls": 0,
+        "tbt": 3371.3743249999993,
+        "transfer": 841530
+      },
+      {
+        "route": "/",
+        "language": "ar",
+        "run": 3,
+        "performance": 67,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 1687.9642,
+        "cls": 0,
+        "tbt": 4403.017900000001,
+        "transfer": 841530
+      },
+      {
+        "route": "/about",
+        "language": "ar",
+        "run": 1,
+        "performance": 78,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 1687.2464,
+        "cls": 0,
+        "tbt": 880.5,
+        "transfer": 474042
+      },
+      {
+        "route": "/partners",
+        "language": "ar",
+        "run": 1,
+        "performance": 60,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 4270.63,
+        "cls": 0,
+        "tbt": 1202.0000000000002,
+        "transfer": 521571
+      },
+      {
+        "route": "/",
+        "language": "en",
+        "run": 1,
+        "performance": 53,
+        "accessibility": 97,
+        "seo": 100,
+        "lcp": 4362.8402,
+        "cls": 0,
+        "tbt": 2133.9999999999995,
+        "transfer": 648634
+      }
+    ],
+    "after": [
+      {
+        "route": "/",
+        "language": "ar",
+        "run": 1,
+        "performance": 67,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 1692.7256,
+        "cls": 0,
+        "tbt": 4668.137199999999,
+        "transfer": 738493
+      },
+      {
+        "route": "/",
+        "language": "ar",
+        "run": 2,
+        "performance": 61,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 2808.7866999999997,
+        "cls": 0,
+        "tbt": 2878.4999999999995,
+        "transfer": 738493
+      },
+      {
+        "route": "/",
+        "language": "ar",
+        "run": 3,
+        "performance": 66,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 1687.0298,
+        "cls": 0,
+        "tbt": 4925.9851,
+        "transfer": 738493
+      },
+      {
+        "route": "/about",
+        "language": "ar",
+        "run": 1,
+        "performance": 75,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 1623.5129,
+        "cls": 0,
+        "tbt": 1185.5000000000002,
+        "transfer": 478850
+      },
+      {
+        "route": "/partners",
+        "language": "ar",
+        "run": 1,
+        "performance": 59,
+        "accessibility": 100,
+        "seo": 100,
+        "lcp": 4223.419599999999,
+        "cls": 0,
+        "tbt": 1475.9999999999993,
+        "transfer": 526397
+      },
+      {
+        "route": "/",
+        "language": "en",
+        "run": 1,
+        "performance": 54,
+        "accessibility": 97,
+        "seo": 100,
+        "lcp": 4316.0862,
+        "cls": 0,
+        "tbt": 2272.9999999999995,
+        "transfer": 545597
+      }
+    ],
+    "summary": [
+      {
+        "route": "/",
+        "language": "ar",
+        "label": "الرئيسية العربية",
+        "runs": 3,
+        "before": {
+          "performance": 67,
+          "accessibility": 100,
+          "seo": 100,
+          "lcp": 1701.0181000000002,
+          "cls": 0,
+          "tbt": 3371.3743249999993,
+          "transfer": 841530
+        },
+        "after": {
+          "performance": 66,
+          "accessibility": 100,
+          "seo": 100,
+          "lcp": 1692.7256,
+          "cls": 0,
+          "tbt": 4668.137199999999,
+          "transfer": 738493
+        }
+      },
+      {
+        "route": "/about",
+        "language": "ar",
+        "label": "من نحن",
+        "runs": 1,
+        "before": {
+          "performance": 78,
+          "accessibility": 100,
+          "seo": 100,
+          "lcp": 1687.2464,
+          "cls": 0,
+          "tbt": 880.5,
+          "transfer": 474042
+        },
+        "after": {
+          "performance": 75,
+          "accessibility": 100,
+          "seo": 100,
+          "lcp": 1623.5129,
+          "cls": 0,
+          "tbt": 1185.5000000000002,
+          "transfer": 478850
+        }
+      },
+      {
+        "route": "/partners",
+        "language": "ar",
+        "label": "الشركاء",
+        "runs": 1,
+        "before": {
+          "performance": 60,
+          "accessibility": 100,
+          "seo": 100,
+          "lcp": 4270.63,
+          "cls": 0,
+          "tbt": 1202.0000000000002,
+          "transfer": 521571
+        },
+        "after": {
+          "performance": 59,
+          "accessibility": 100,
+          "seo": 100,
+          "lcp": 4223.419599999999,
+          "cls": 0,
+          "tbt": 1475.9999999999993,
+          "transfer": 526397
+        }
+      },
+      {
+        "route": "/",
+        "language": "en",
+        "label": "الرئيسية الإنجليزية",
+        "runs": 1,
+        "before": {
+          "performance": 53,
+          "accessibility": 97,
+          "seo": 100,
+          "lcp": 4362.8402,
+          "cls": 0,
+          "tbt": 2133.9999999999995,
+          "transfer": 648634
+        },
+        "after": {
+          "performance": 54,
+          "accessibility": 97,
+          "seo": 100,
+          "lcp": 4316.0862,
+          "cls": 0,
+          "tbt": 2272.9999999999995,
+          "transfer": 545597
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+@use '../utils' as *;
+
+.error {
+    text-align: center;
+
+    &-desc {
+        opacity: .8;
+    }
+
+    &-title {
+        font-family: var(--Teko);
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 111%;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        text-align: center;
+        color: $white;
+
+        @media #{ $md,$sm,$xs} {
+
+            font-size: 50px;
+        }
+
+    }
+}

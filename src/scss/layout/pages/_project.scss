@@ -1,0 +1,198 @@
+@use '../../utils' as *;
+
+.sb-project {
+    &-item {
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+
+        &-thumb {
+            position: relative;
+            height: 100%;
+            display: block;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                background-color: $secondary-color;
+                transform: scale(1, 0);
+                transition: transform 400ms ease-in-out, visibility 400ms ease-in-out;
+                opacity: 0;
+                visibility: hidden;
+                // transform-origin: bottom center;
+                perspective: 400px;
+
+
+            }
+        }
+
+        &-content {
+            background-color: $white;
+            border-radius: 45px 45px 0 0;
+            position: absolute;
+            bottom: 0px;
+            padding: 15px 0px;
+            left: 6px;
+            right: 6px;
+            text-align: center;
+            z-index: 2;
+            transform: translateY(100px);
+
+            &-innerpages {
+                left: 50px;
+                right: 50px;
+
+                @media #{ $md,$sm,$xs,} {
+                    left: 30px;
+                    right: 30px;
+                }
+            }
+
+            @include transition(.5s);
+
+
+        }
+
+        &:hover {
+            .sb-project-item-content {
+                transform: translateY(0%);
+            }
+
+            .sb-project-item-thumb {
+                &::before {
+                    opacity: 85%;
+                    visibility: visible;
+
+                    // transform-origin: top center;
+                    transform: scale(1, 1);
+                }
+            }
+        }
+    }
+}
+
+
+
+//  gallery
+
+.sb-gallery {
+    &__btn {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        justify-content: center;
+
+        @media #{ $md,$sm,$xs,} {
+            flex-wrap: wrap;
+            row-gap: 20px;
+        }
+
+        &__item {
+
+
+            padding: 13px 24px;
+            background-color: #F3F3ED;
+            border-radius: 24px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 150%;
+            text-transform: uppercase;
+            color: #0e2207;
+            border: 1px dashed #0e2207;
+            @include transition(.3s);
+
+            &:hover {
+                background-color: $secondary-color;
+            }
+
+
+        }
+    }
+
+
+    .active-gallery-btn {
+        background-color: $secondary-color;
+    }
+}
+
+// galleryDetails
+
+.sb-galleryDetails {
+    position: relative;
+
+    &__thumb {
+        & img {
+            height: 500px;
+            object-fit: cover;
+
+            @media #{ $md,$sm,$xs,} {
+                height: 400px;
+
+            }
+        }
+    }
+
+    &__projectType {
+
+
+        position: absolute;
+        bottom: -1px;
+        left: 200px;
+        right: 200px;
+
+        background-color: $white;
+        padding: 30px 50px;
+        border-radius: 10px 10px 0 0;
+
+        @media #{ $md,$sm,$xs,} {
+            padding: 20px;
+            left: 20px;
+            right: 20px;
+
+        }
+
+        @media #{ $xl,$lg} {
+            padding: 20px;
+            left: 100px;
+            right: 100px;
+
+        }
+
+        &__text {
+            display: block;
+
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 167%;
+            letter-spacing: -0.02em;
+            color: #0e2207;
+        }
+    }
+
+    &__nextPrevious {
+        border-bottom: 1px solid #d9d9d9;
+        border-top: 1px solid #d9d9d9;
+        padding: 35px 0px;
+
+        &__btn {
+
+            column-gap: 15px;
+
+
+        }
+
+        &__icon {
+            min-width: 28px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            background-color: $secondary-color;
+            border-radius: 50%;
+        }
+    }
+}

@@ -1,0 +1,229 @@
+@use '../../utils' as *;
+
+.ab-faq {
+    &-trusted {
+
+
+        @media #{ $md,$sm,$xs} {
+            padding: 50px 0;
+        }
+
+    }
+
+    // home three start
+ &-shape{
+    &-1{
+        top: 0;
+        left: -24px;
+    }
+ }
+    // home three end
+
+
+
+
+    &-trusted-title {
+        font-size: 60px;
+        font-weight: 700;
+        color: $black;
+    }
+
+    &-trusted-icon {
+        font-size: 80px;
+        color: $black;
+
+    }
+
+    .ab-accordion-item {
+        border: 1px solid $border-color;
+        border-left: 0;
+        border-right: 0;
+        margin-top: -1px;
+        padding: 30px 0px;
+
+        @media #{$md,$sm,$xs} {
+            padding: 20px 0;
+        }
+    }
+
+    .ab-accordion-body{
+        padding: 0  40px 0   0;
+    }
+
+    .ab-accordion-button {
+
+        font-weight: 700;
+        font-size: 24px;
+font-family: var(--Teko);
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: $white ;
+
+        display: block;
+        width: 100%;
+
+        @include transition(.3s);
+        align-items: center;
+
+        @include flexbox();
+        justify-content: space-between;
+        text-align: left;
+
+        @media #{$md,$sm,$xs} {
+            font-size: 20px;
+        }
+
+        @media #{$lg,$xl,$xlm} {
+
+            font-size: 22px;
+        }
+
+        span {
+            @include transition(.3s);
+            padding-right: 12px;
+
+             
+        }
+
+       
+
+       
+    }
+
+
+
+    .accordion-header {
+        margin-bottom: 0;
+
+        &:hover {
+
+            .accordion-btn-icon {
+                transition: transform .3s ease-in-out;
+                transform: translateX(80px);
+                background-color: $primary-color;
+
+                svg {
+                    path {
+                        fill: $bg;
+                    }
+                }
+
+            }
+
+            .accordion-btn {
+                transition: transform .3s ease-in-out;
+                transform: translateX(-55px);
+
+                color: $primary-color;
+
+            }
+        }
+    }
+
+    //  home 3 csss
+    .accordion-btn {
+        transform: translateX(0px);
+
+        &-wrapper {
+            width: 205px;
+            /* display: inline-block; */
+            /* width: 25%; */
+            display: inline-flex;
+            align-items: center;
+            column-gap: 12px;
+
+        }
+
+        color: $white;
+        font-family: var(--Kanit);
+
+        &-icon {
+            border: 1px solid $primary-color;
+            border-radius: 100px;
+            text-align: center;
+            min-width: 32px;
+            height: 32px;
+            line-height: 26px;
+
+        }
+    }
+
+
+
+
+    // &-home-2 {
+
+
+    //     .ab-accordion-item {
+    //         border: 1px solid $border-color;
+    //     }
+
+    //     .ab-accordion-button {
+    //         font-size: 24px;
+    //         font-weight: 500;
+    //         color: $black;
+    //         display: block;
+    //         width: 100%;
+    //         border-bottom: 1px solid $border-color;
+    //         padding-bottom: 10px;
+
+    //         align-items: center;
+
+    //         @media #{$md,$sm,$xs} {
+    //             font-size: 20px;
+    //         }
+
+    //         @include flexbox();
+    //         justify-content: space-between;
+    //         text-align: left;
+
+    //         & span {
+    //             margin-left: 20px;
+    //             // transform: rotate(90deg);
+    //             font-size: 16px;
+    //             @include transition(.7s);
+
+    //             i {
+    //                 transform: rotate(0deg);
+    //             }
+
+    //             & .fa-plus {
+    //                 opacity: 0;
+    //                 visibility: hidden;
+
+    //             }
+
+    //             & .fa-minus {
+    //                 color: $theme-color3;
+    //             }
+
+
+    //         }
+
+    //         &.collapsed span {
+    //             i {
+    //                 transform: rotate(0deg);
+    //             }
+
+    //             & .fa-minus {
+    //                 opacity: 0;
+    //                 visibility: hidden;
+    //                 display: none;
+
+    //             }
+
+    //             & .fa-plus {
+    //                 opacity: 1;
+    //                 visibility: visible;
+
+    //             }
+    //         }
+
+    //         & i {
+    //             font-size: 24px;
+    //         }
+
+    //     }
+    // }
+
+}

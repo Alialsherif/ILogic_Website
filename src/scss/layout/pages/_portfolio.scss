@@ -1,0 +1,417 @@
+@use '../../utils' as *;
+
+.project-main {
+  position: relative;
+margin: 0 -210px;
+
+          @media #{$md,$xs,$sm} {
+    margin: 0;
+ 
+
+      }
+  .project-desc {
+    padding: 24px 32px;
+    visibility: hidden;
+    opacity: 0;
+
+          @media #{$sm,$xs} {
+    padding: 24px 15px;
+ 
+
+      }
+          @media #{$md,$lg} {
+    padding: 24px 20px;
+ 
+
+      }
+
+  }
+
+
+  .project-btn {
+
+ 
+    background: $bg;
+    position: relative;
+    z-index: 100;
+    line-height: 56px;
+    border-radius: 100px;
+    text-align: center;
+    width: 56px;
+    height: 56px;
+    @include transition(0.3s);
+
+    path {
+      fill: $white;
+    }
+
+
+
+    &:hover {
+      background-color: $primary-color;
+
+      path {
+        fill: $black;
+      }
+    }
+
+    &-next {
+      position: absolute;
+      right: 710px;
+         bottom: 140px;
+
+
+      @media #{$xlm} {
+        right: 500px;
+      }
+
+      @media #{$xl} {
+        right: 450px;
+      }
+
+      @media #{$lg} {
+        right: 250px;
+      }
+           @media #{$md,$sm,$xs} {
+   position: static;
+   align-items: center;
+      }
+    }
+
+    &-prev {
+      position: absolute;
+      left: 710px;
+       
+      bottom: 140px;
+
+      @media #{$xlm} {
+        left: 500px;
+      }
+
+      @media #{$xl} {
+        left: 450px;
+      }
+      
+      @media #{$lg} {
+        left: 250px;
+      }
+       @media #{$md,$sm,$xs} {
+   position: static;
+   align-items: center;
+      }
+    }
+
+  }
+
+  img {
+
+    border-radius: 16px;
+
+
+    object-fit: cover;
+
+    @media #{$sm,$xs,$md} {
+      max-height: 270px;
+      min-height: 270px;
+
+      min-width: 270px;
+      max-width: 270px;
+
+    }
+  }
+
+ 
+  .swiper-slide {
+    padding:  0;
+  @include flexbox();
+    justify-content: center;
+    margin: 0 auto;
+
+    .project-item {
+      transition: var(--bs-transition);
+    }
+  }
+
+  .project-item {
+    position: relative;
+    border-radius: 16px;
+   width: 100%;  
+
+      @media #{$sm,$xs,$md} {
+    
+
+      min-width: 300px;
+      max-width: 300px;
+
+    }
+    &::before {
+      content: '';
+
+
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+
+    }
+
+    &-shape {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    .icon {
+      @include center();
+      position: absolute;
+      opacity: 0;
+      z-index: 2;
+      display: inline-flex;
+      column-gap: 14px;
+
+      @media (max-width:575.98px) {
+        width: 50px;
+        height: 50px;
+        ;
+      }
+
+      &:hover {
+        color: $primary-color;
+
+        .primary-btn-two-icon {
+          @include transition(.5s);
+          transform: rotate(43deg);
+        }
+      }
+
+      @media #{$sm,$xs,$md} {
+	transform: none;
+	width: 100%;
+	left: 15px !important;
+	display: inline-flex;
+	align-items: center;
+	top: inherit;
+	bottom: 200px;
+
+      }
+    }
+  }
+
+
+
+.swiper-slide-next,.swiper-slide-prev{
+   img {
+      
+  height: 450px;
+      object-fit: cover;
+
+      
+      @media #{$sm,$xs,$md} {
+    
+
+   height: 270px;
+      }
+
+    }
+}
+
+
+  .swiper-slide-active {
+    .project-item {
+      transform: scale(1.02);
+      border: 1px solid $primary-color;
+margin-top: 100px;
+      @media #{$md} {
+      transform: scale(1);
+       
+    margin-top: 40px;
+   width: 418px !important;
+      }
+      @media #{$sm,$xs} {
+      transform: scale(1);
+       
+    margin-top: 0px;
+   width: 418px !important;
+      }
+      &-shape {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .icon {
+        opacity: 1;
+      }
+
+
+    }
+
+    img {
+      filter: blur(9px) brightness(0.8) saturate(1.2);
+       width: 418px !important;
+  height: 347px;
+      object-fit: cover;
+    }
+
+    .project-desc {
+      opacity: 1;
+      visibility: visible;
+    }
+
+  }
+
+ 
+/* BUT we need previous, so use this instead */
+}
+// .highlighted{
+//   margin-top: 100px !important;
+// }
+.ab-project {
+position: relative;
+  &-title{
+   
+ 
+	position: absolute;
+	top: 100px;
+	transform: translate(-15%, 0%);
+	left: 28%;
+   @media #{$sm,$xs,$md} {
+    transform: none;
+   position: static;
+  }
+  }
+      &-btn-wrapper{
+justify-content: center;
+gap: 30px;
+
+  @media #{$sm,$xs,$md} {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+    }
+  &-three {
+    &-slider {
+    @include flexbox();
+      column-gap: 120px;
+      align-items: center;
+
+      @media #{$sm,$xs} {
+        gap: 40px;
+        flex-wrap: wrap;
+      }
+
+
+      &-Btn {
+        &-1 {
+
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 117%;
+          letter-spacing: 0.01em;
+          text-transform: uppercase;
+          color: $white;
+          display: inline-block;
+        }
+
+
+      }
+    }
+
+    &-thumb {
+	@media #{$xs,$sm,$md,$lg,$xl} {
+
+				overflow: hidden;
+
+
+			}
+      img {
+        border-radius: 16px;
+      }
+
+      .swiper {
+        @media #{$xs} {
+
+          width: 250px;
+          height: 420px;
+
+
+        }
+
+        @media #{$sm} {
+
+          width: 320px;
+          height: 420px;
+
+
+        }
+
+        @media #{$md} {
+          padding-left: 20px;
+
+
+        }
+      }
+
+      .swiper-slide-active {
+        img {
+          border-radius: 16px;
+          border: 1px solid $primary-color;
+        }
+      }
+    }
+
+
+  }
+
+  &-Btn-3 {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: $primary-color;
+      width: 100%;
+      height: 1px;
+      bottom: -15px;
+    }
+  }
+
+}
+
+// inner pages
+
+.ab-portfolio {
+  &-wrapper {
+  @include flexbox();
+    justify-content: space-between;
+    gap: 30px;
+
+    @media #{$xs,$sm} {
+      flex-wrap: wrap;
+
+
+    }
+  }
+}
+
+// portfolio details
+
+.portfolio-details {
+  &-menu {
+    background-color: $dark;
+    padding: 32px;
+    border-radius: 16px;
+  @media #{$sm,$md,$xs } {
+   padding: 20px;
+  }
+    &-item {
+      border-top: 1px solid rgba(188, 188, 188, 0.12);
+      padding-top: 24px;
+      padding-bottom: 12px;
+    }
+  }
+}

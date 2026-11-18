@@ -1,0 +1,67 @@
+@use '../utils' as *;
+
+.client_logo {
+&-shape{
+    &-2{
+        top: 0;
+        right: 0;
+    }
+    &-1{
+        top: -10px;
+        right: 0;
+    }
+}
+    &_item {
+        border: 1px solid $border-color;
+        padding: 29px;
+        margin-top: -1px;
+        margin-right: -1px;
+        border-top: none;
+
+        &:last-child{
+            border-bottom: none;
+        }
+        &:nth-child(7){
+            border-bottom: none;
+        }
+        &:nth-child(6){
+            border-bottom: none;
+              
+        @media #{ $sm,$lg,$xs,$md} {
+          border-bottom: 1px solid $border-color;
+
+            
+        }
+
+        }
+     
+        &:nth-child(5){
+            border-right: none;
+        }
+     
+        @media #{ $sm,$xs} {
+            padding: 25px 10px;
+
+            
+        }
+
+        
+
+    }
+
+    &_wrapper {
+        // display: flex;
+        // column-gap: 120px;
+        flex-wrap: wrap;
+        border-top: 1px solid $border-color;
+    }
+
+    &-award {
+        backdrop-filter: blur(48px);
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid $primary-color;
+        border-radius: 24px;
+        padding: 40px 32px;
+
+    }
+}

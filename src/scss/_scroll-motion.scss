@@ -1,0 +1,37 @@
+// Static SSR runs preserve words, whitespace, heading tags and Arabic shaping.
+// Nothing is hidden until JS adds has-scroll-motion after scrolling starts.
+.motion-heading-word { display: inline-block; font: inherit; color: inherit; letter-spacing: inherit; }
+html.has-scroll-motion #root .scroll-motion[data-motion-state] {
+  transition-property: opacity, transform;
+  transition-duration: var(--motion-duration,680ms);
+  transition-timing-function: var(--motion-ease,cubic-bezier(.22,1,.36,1));
+  transition-delay: var(--motion-delay,calc(var(--i,0) * 100ms));
+}
+html.has-scroll-motion #root .scroll-motion[data-motion-state='pending'] {
+  transition: none;
+  opacity: 0;
+  transform: translate3d(var(--x,0px),var(--y,40px),0) rotate(var(--r,0deg)) scale(var(--motion-scale,1));
+}
+html.has-scroll-motion #root .motion-card[data-motion-state='pending'] { opacity: .16; }
+html.has-scroll-motion #root .motion-icon[data-motion-state='pending'] { opacity: .12; }
+html.has-scroll-motion #root .motion-icon { transform-origin: center; }
+html.has-scroll-motion #root svg.motion-icon { transform-box: fill-box; }
+html.has-scroll-motion #root .scroll-motion[data-motion-state='entering'] { opacity: 1; transform: none; will-change: transform,opacity; }
+html.has-scroll-motion #root .scroll-motion[data-motion-state='done'] { opacity: 1; transform: none; transition-duration: 220ms; transition-delay: 0ms; }
+html.has-scroll-motion #root .scroll-motion[data-motion-state='done']:focus-within { transition: none; }
+html.has-scroll-motion #root .motion-parallax { transform: translate3d(0,var(--motion-parallax,0px),0); will-change: transform; }
+html.has-scroll-motion #root .motion-photo { overflow: hidden; }
+html.has-scroll-motion #root .home-partner-visual.motion-photo { border-radius: 16px; }
+html.has-scroll-motion #root .about-innovators-art.motion-photo { border-radius: 18px; }
+html.has-scroll-motion #root .motion-photo img { transition: transform 240ms cubic-bezier(.22,1,.36,1); }
+@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference) {
+  html.has-scroll-motion #root .motion-hover[data-motion-state='done']:is(:hover,:focus-within) { transform: translate3d(0,-4px,0); box-shadow: 0 12px 28px rgba(0,0,0,.07); }
+  html.has-scroll-motion #root .motion-icon[data-motion-state='done']:hover { transform: translate3d(0,-3px,0) scale(1.035); box-shadow: none; }
+  html.has-scroll-motion #root .motion-photo:hover { box-shadow: 0 10px 26px rgba(0,0,0,.08); }
+  html.has-scroll-motion #root .motion-photo:hover img { transform: translate3d(0,-3px,0) scale(1.04); }
+}
+@media (prefers-reduced-motion:reduce) {
+  html #root .scroll-motion[data-motion-state] { opacity: 1; transform: none; transition: none; }
+  html #root .motion-parallax { transform: none; }
+  html #root .motion-photo img { transform: none; transition: none; }
+}

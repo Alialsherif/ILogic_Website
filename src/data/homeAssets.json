@@ -1,0 +1,65 @@
+{
+  "hero": {
+    "file": "hero-mockup-collage.webp",
+    "width": 1400,
+    "height": 1000,
+    "available": false,
+    "src": "/images/home/hero-mockup-collage.webp"
+  },
+  "fopac": {
+    "file": "fopac-website-mockup.webp",
+    "width": 1600,
+    "height": 1000,
+    "available": true,
+    "src": "/images/home/fopac-website-mockup.webp"
+  },
+  "zavodsz": {
+    "file": "zavodsz-website-mockup.webp",
+    "width": 1600,
+    "height": 1000,
+    "available": true,
+    "src": "/images/home/zavodsz-website-mockup.webp"
+  },
+  "gostinec": {
+    "file": "gostinec-website-mockup.webp",
+    "width": 1600,
+    "height": 1000,
+    "available": true,
+    "src": "/images/home/gostinec-website-mockup.webp"
+  },
+  "alsherif": {
+    "file": "alsherif-website-mockup.webp",
+    "width": 1600,
+    "height": 1000,
+    "available": true,
+    "src": "/images/home/alsherif-website-mockup.webp"
+  },
+  "laptopFrame": {
+    "file": "laptopFrame.webp",
+    "src": "/images/identity-v2/laptopFrame.webp",
+    "width": 1536,
+    "height": 1024,
+    "available": true
+  },
+  "loyalty": {
+    "file": "loyalty-laptop-system.webp",
+    "src": "/images/identity-v2/loyalty-laptop-system.webp",
+    "width": 1536,
+    "height": 1024,
+    "available": true
+  },
+  "behavior": {
+    "file": "behavior.webp",
+    "src": "/images/identity-v2/behavior.webp",
+    "width": 1600,
+    "height": 1067,
+    "available": true
+  },
+  "partners": {
+    "file": "partners.webp",
+    "src": "/images/identity-v2/partners.webp",
+    "width": 1600,
+    "height": 1067,
+    "available": true
+  }
+}

@@ -1,0 +1,271 @@
+@use '../../utils' as *;
+
+
+
+.abprice__area {
+    position: relative;
+
+    .abprice-shape {
+
+
+
+        &-1 {
+
+            position: absolute;
+            top: 258px;
+            right: 282px;
+
+            @media #{$xxl} {
+                right: 162px;
+            }
+
+            @media #{ $xlm,$xl,$lg} {
+                display: none;
+            }
+
+        }
+
+        &-2 {
+            position: absolute;
+            top: 40%;
+            left: 170px;
+        }
+
+    }
+}
+
+.abprice {
+    background-color: $bg;
+    border: 1px solid $border-color;
+
+    border-radius: 16px;
+    overflow: hidden;
+    @include transition(0.5s);
+
+    &__titleBtn {
+
+        display: inline-flex;
+        column-gap: 24px;
+
+        &-one {
+              padding: 0px 12px 12px 12px;
+            font-family: var(--Kanit);
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-align: center;
+            color: $white !important;
+          &.active{
+              background: linear-gradient(180deg, rgba(16, 16, 16, 0.16) 0%, rgba(204, 255, 0, 0.16) 100%);
+            border-radius: 8px;
+            padding: 0px 12px 12px 12px;
+            font-family: var(--Kanit);
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-align: center;
+            color: $white;
+          }
+        }
+
+      
+        &-three{
+            border-radius: 22px;
+width: 41px;
+height: 20px;
+font-family: var(--Teko);
+font-weight: 600;
+font-size: 14px;
+line-height: 143%;
+text-align: center;
+color: $bg;
+background-color: $primary-color;
+display: inline-block;
+margin-top: -2px;
+        }
+    }
+
+    &__btn {
+        background-color: $dark;
+        color: $white;
+        position: relative;
+        border: 1px solid $dark;
+        padding: 16px 35px;
+        border-radius: 100px;
+
+        svg {
+            transform: rotate(45deg);
+
+            path {
+                fill: $white;
+            }
+
+        }
+
+        @media #{$xl} {
+            padding: 16px 28px;
+
+
+
+        }
+
+        &::before {
+            animation: opacityFallbackOut .5s step-end forwards;
+            backface-visibility: hidden;
+            background-color: $primary-color;
+            clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+            content: "";
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            transform: translateZ(0);
+            transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+            width: 100%;
+            @include transition(.5s);
+            border-radius: 100px;
+        }
+
+        &:hover {
+
+            &::before {
+                animation: opacityFallbackIn 0s step-start forwards;
+                clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+                z-index: -2;
+                @include transition(.5s);
+
+            }
+
+            color: $bg !important;
+            z-index: 2;
+            position: relative;
+
+            svg {
+                transform: rotate(45deg);
+
+                path {
+                    fill: $bg;
+                }
+
+            }
+        }
+
+    }
+
+    &-midle {
+        border: 1px solid $primary-color;
+    }
+
+    &__shape {
+        visibility: hidden;
+        opacity: 0;
+        @include transition(0.3s);
+    }
+
+    &:hover {
+
+        .abprice__shape {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+
+
+    &__title {
+
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 114%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: $white;
+    }
+
+    &__subtitle {
+        background: $bg;
+        box-shadow: $shadow;
+        text-align: center;
+        padding: 12px 20px;
+        border-radius: 11px;
+        position: absolute;
+        top: -39px;
+    }
+
+    &-btn {
+        padding: 16px 35px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $white;
+        border-radius: 32px;
+        background-color: $dark;
+        text-align: center;
+    }
+
+
+    &__price {
+
+
+        background-color: $dark;
+        padding: 60px 0 40px;
+        border-radius: 10px;
+
+        .ab-section-title {
+            color: $primary-color !important;
+        }
+
+        &__icon {
+
+
+
+            width: 45px;
+            height: 45px;
+            border-radius: 7px;
+            text-align: center;
+            line-height: 45px;
+
+
+
+
+        }
+    }
+
+
+
+    &__line {
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background-color: #57595C;
+    }
+
+
+    &__futures {
+        padding: 48px;
+
+        @media #{$sm,$xs,$md} {
+      
+
+padding: 24px;
+
+        }
+        li {
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #fff;
+            margin-bottom: 25px;
+
+            span {
+                margin-left: 10px;
+            }
+        }
+    }
+}

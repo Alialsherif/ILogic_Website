@@ -1,0 +1,130 @@
+@use '../utils' as *;
+
+.ab-skill {
+
+    &-area{
+          @media #{$md,$sm,$xs} {
+            padding-bottom: 80px;
+            }
+    }
+&-shape{
+    &-1{
+        left: 300px;
+        top: 0;
+            @media #{$lg} {
+                left: 105px;
+            }
+            @media #{$xl} {
+                left: 260px;
+            }
+            @media #{$md,$sm,$xs} {
+                left: 0px;
+                width: 90%;
+                top: 45px;
+            }
+            @media #{$sm,$xs} {
+             display: none;
+            }
+
+    }
+    &-2{
+        top: 0;
+        left: -30px;
+    }
+}
+    &-top {
+        position: relative;
+
+
+      @include flexbox();
+        flex-wrap: wrap;
+
+        button {
+            @media #{$lg,$md,$sm,$xs} {
+                position: static !important;
+            }
+
+            &:nth-child(1) {
+                position: relative;
+                top: 0;
+                left: 132px;
+            }
+
+            &:nth-child(2) {
+
+                transform: rotate(-37deg);
+                position: absolute;
+                top: 20px;
+                left: 343px;
+
+            }
+
+
+
+            &:nth-child(3) {
+                transform: rotate(-32deg);
+                position: absolute;
+                top: -20px;
+                left: 500px;
+            }
+
+            &:nth-child(4) {
+                transform: rotate(-32deg);
+                position: absolute;
+                top: -20px;
+
+                left: 600px;
+            }
+
+            &:nth-child(5) {
+	transform: rotate(-34deg);
+	position: absolute;
+	top: -24px;
+	right: 465px;
+}
+
+            &:nth-child(6) {
+                transform: rotate(-30deg);
+                position: absolute;
+                top: -28px;
+                right: 360px;
+            }
+
+            &:nth-child(7) {
+                position: absolute;
+                top: -20px;
+
+                right: 240px;
+            }
+
+            &:nth-child(8) {
+                position: absolute;
+                top: -20px;
+
+                right: 93px;
+            }
+        }
+    }
+
+    &-heading {
+        display: inline-flex;
+        column-gap: 30px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    &-btn {
+        background-color: $bg;
+        backdrop-filter: blur(50px);
+        border-radius: 32px;
+
+        font-family: var(--Teko);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+        color: #faf2ee;
+
+        padding: 12px 30px;
+    }
+}
